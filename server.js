@@ -6,6 +6,6 @@ const indexRoutes = require('./api/routes/');
 
 app.use('/', indexRoutes);
 
-app.listen(PORT, (req, res, next) => {
+app.listen(PORT, () => {
     console.log(`Listening on PORT ${PORT}`);
 });
