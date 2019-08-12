@@ -1,15 +1,19 @@
 import React from 'react';
 import { Container, Col, Row } from 'reactstrap';
+import Logo from './Logo';
 
 const HomePage = () => {
     return (
-        <Container>
-            <Col>
+        <div className='homePage'>
+            <Logo />
+            <Container className='text-center'>
                 <Row>
-                    Home Page Component
-            </Row>
-            </Col>
-        </Container>
+                    <Col>
+                        HomePage
+                    </Col>
+                </Row>
+            </Container>
+        </div>
     );
 };
 
