@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Col, Row } from 'reactstrap';
+import { Container, Row, Col, Button } from 'reactstrap';
 import Logo from './Logo';
 
 class HomePage extends Component {
@@ -14,7 +14,7 @@ class HomePage extends Component {
 
     render = () => {
         return (
-            <div className='homePage'>
+            <div className='home-page'>
                 <Logo />
                 <Container className='text-center text-white' style={{ marginTop: '75px' }}>
                     <Row>
@@ -37,9 +37,13 @@ class HomePage extends Component {
                                     N
                                 </a> stack.
                             </h3>
+                            <Button className='btn-dark'>
+                                <b>Navigate</b>
+                            </Button>
                         </Col>
                     </Row>
                 </Container>
+                <br />
             </div>
         );
     };
