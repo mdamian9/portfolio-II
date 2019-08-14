@@ -3,8 +3,14 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faUserCircle, faFileCode, faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons'
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+
+// Add font awesome icons to library
+library.add(fab, faUserCircle, faFileCode, faEnvelopeSquare);
 
 ReactDOM.render(
     <Router>

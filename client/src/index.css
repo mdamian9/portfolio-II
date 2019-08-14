@@ -56,3 +56,7 @@ code {
 .intro a:active {
   color: #f443369a;
 }
+
+.nav-btn:hover {
+  background-color: #f44336;
+}
