@@ -5,12 +5,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faUserCircle, faFileCode, faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons'
+import { faUserCircle, faFileCode, faEnvelopeSquare, faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons'
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 // Add font awesome icons to library
-library.add(fab, faUserCircle, faFileCode, faEnvelopeSquare);
+library.add(fab, faUserCircle, faFileCode, faEnvelopeSquare, faAngleDoubleRight);
 
 ReactDOM.render(
     <Router>

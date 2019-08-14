@@ -1,0 +1,35 @@
+.toolbar {
+    width: 100%;
+    height: 55px;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+.hide-bg {
+    background: none;
+}
+
+.hide-content {
+    visibility: hidden;
+}
+
+.toolbar a:hover,
+.toolbar a:active {
+    color: #f44336;
+}
+
+.toolbar__navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.toolbar__navigation a {
+    text-decoration: none;
+    color: white;
+}
+
+.toolbar-spacer {
+    flex: 1;
+}
