@@ -48,6 +48,10 @@ code {
   height: auto;
 }
 
+.intro {
+  margin: 20px auto;
+}
+
 .intro a {
   color: #f44336;
 }

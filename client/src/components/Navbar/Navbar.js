@@ -1,25 +1,26 @@
 import React from 'react';
-import '../assets/css/Navbar.css';
+import '../Navbar/Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Navbar = props => {
 
-    let navbarClasses = 'toolbar';
+    let navbarClasses = 'toolbar', classOne = '';
 
-    // if (props.page === 'homePage') {
-    //     navbarClasses += ' fade-in hide-bg';
-    // };
+    if (props.page === 'homePage') {
+        navbarClasses += ' fade-in hide-bg';
+        classOne = 'active-pg';
+    };
 
-    // if (!props.show) {
-    //     navbarClasses = 'toolbar hide-content'
-    // };
+    if (!props.show) {
+        navbarClasses = 'toolbar hide-content'
+    };
 
     return (
         <header className={navbarClasses}>
             <nav className='toolbar__navigation'>
                 <div></div>
                 <div className='toolbar__logo'>
-                    <a href='/home'>
+                    <a href='/home' style={{ fontSize: '1.5rem' }}>
                         <FontAwesomeIcon icon='angle-double-right' />
                         &nbsp;HOME
                     </a>

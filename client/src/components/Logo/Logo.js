@@ -1,5 +1,5 @@
 import React from 'react';
-import logo_img from '../assets/images/logo.jpg';
+import logo_img from '../../assets/images/logo.jpg';
 
 const Logo = () => (
     <div className="md-logo">

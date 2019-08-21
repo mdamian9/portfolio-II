@@ -5,14 +5,6 @@
     color: white;
 }
 
-.hide-bg {
-    background: none;
-}
-
-.hide-content {
-    visibility: hidden;
-}
-
 .toolbar a:hover,
 .toolbar a:active {
     color: #f44336;
@@ -32,4 +24,32 @@
 
 .toolbar-spacer {
     flex: 1;
+}
+
+.toolbar__nav-items ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.toolbar__nav-items li {
+    padding: 0 0.5rem;
+}
+
+.hide-bg {
+    background: none;
+}
+
+.hide-content {
+    visibility: hidden;
+}
+
+.fade-in {
+    animation: fadein 1.5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }

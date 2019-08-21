@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Button } from 'reactstrap';
-import Logo from './Logo';
-import Navbar from './Navbar';
+import Logo from '../Logo/Logo';
+import Navbar from '../Navbar/Navbar';
 
 class HomePage extends Component {
 
@@ -9,15 +9,26 @@ class HomePage extends Component {
         super(props);
         this.state = {
             sideDrawerOpen: false,
-            navbarShowing: false
+            navbarShowing: false,
+            activePage: 'homePage'
         };
+        this.navbarToggleClickHandler = this.navbarToggleClickHandler.bind(this);
+    };
+
+    navbarToggleClickHandler = () => {
+        this.setState(() => {
+            return { navbarShowing: true };
+        });
     };
 
     render = () => {
         return (
             <div className='home-page'>
                 <Logo />
-                <Navbar />
+                <Navbar
+                    show={this.state.navbarShowing}
+                    page={this.state.activePage}
+                />
                 <Container className='text-center text-white' style={{ marginTop: '75px' }}>
                     <Row>
                         <Col>
@@ -39,7 +50,7 @@ class HomePage extends Component {
                                     N
                                 </a> stack.
                             </h3>
-                            <Button className='btn-dark nav-btn'>
+                            <Button className='btn-dark nav-btn' onClick={this.navbarToggleClickHandler}>
                                 <b>Navigate</b>
                             </Button>
                         </Col>
