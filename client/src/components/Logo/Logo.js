@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Logo/Logo.css';
 import logo_img from '../../assets/images/logo.jpg';
 
 const Logo = () => (

@@ -4,11 +4,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Navbar = props => {
 
-    let navbarClasses = 'toolbar', classOne = '';
+    let navbarClasses = 'toolbar';
 
     if (props.page === 'homePage') {
         navbarClasses += ' fade-in hide-bg';
-        classOne = 'active-pg';
     };
 
     if (!props.show) {
@@ -18,7 +17,6 @@ const Navbar = props => {
     return (
         <header className={navbarClasses}>
             <nav className='toolbar__navigation'>
-                <div></div>
                 <div className='toolbar__logo'>
                     <a href='/home' style={{ fontSize: '1.5rem' }}>
                         <FontAwesomeIcon icon='angle-double-right' />
@@ -34,12 +32,12 @@ const Navbar = props => {
                         <li>
                             <a href='https://www.linkedin.com/in/migueldamian/' target='_blank' rel='noopener noreferrer'>
                                 <FontAwesomeIcon icon={['fab', 'linkedin']} />&nbsp;LinkedIn
-                                </a>
+                            </a>
                         </li>
                         <li>
                             <a href='https://github.com/mdamian9' target='_blank' rel='noopener noreferrer'>
                                 <FontAwesomeIcon icon={['fab', 'github']} />&nbsp;Github
-                                </a>
+                            </a>
                         </li>
                     </ul>
                 </div>

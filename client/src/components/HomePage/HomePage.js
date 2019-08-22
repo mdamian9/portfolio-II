@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Button } from 'reactstrap';
+import '../HomePage/HomePage.css';
 import Logo from '../Logo/Logo';
 import Navbar from '../Navbar/Navbar';
 

@@ -1,0 +1,12 @@
+.md-logo {
+    background-color: #f44336;
+    text-align: center;
+    margin: 0 auto;
+    max-height: 250px;
+    width: 100%;
+}
+  
+.md-logo__logo {
+    max-width: 250px;
+    height: auto;
+}
