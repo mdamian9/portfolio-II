@@ -1,0 +1,11 @@
+.toggle-btn {
+    background: none;
+    border: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.toggle-btn:focus {
+    background: none;
+}

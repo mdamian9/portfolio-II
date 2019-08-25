@@ -1,6 +1,7 @@
 import React from 'react';
 import '../Navbar/Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 
 const Navbar = props => {
 
@@ -40,6 +41,9 @@ const Navbar = props => {
                             </a>
                         </li>
                     </ul>
+                </div>
+                <div className='drawer-toggle-btn'>
+                    <DrawerToggleButton toggleSideDrawer={props.toggleSideDrawer} />
                 </div>
             </nav>
         </header>

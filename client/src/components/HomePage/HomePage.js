@@ -22,6 +22,13 @@ class HomePage extends Component {
         });
     };
 
+    toggleSideDrawer = () => {
+        // this.setState(prevState => {
+        //     return { sideDrawerOpen: !prevState.sideDrawerOpen }
+        // });
+        console.log('toggle sidedrawer');
+    };
+
     render = () => {
         return (
             <div className='home-page'>
@@ -29,6 +36,7 @@ class HomePage extends Component {
                 <Navbar
                     show={this.state.navbarShowing}
                     page={this.state.activePage}
+                    toggleSideDrawer={this.toggleSideDrawer}
                 />
                 <Container className='text-center text-white' style={{ marginTop: '75px' }}>
                     <Row>
