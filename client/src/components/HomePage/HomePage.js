@@ -3,6 +3,7 @@ import { Container, Row, Col, Button } from 'reactstrap';
 import '../HomePage/HomePage.css';
 import Logo from '../Logo/Logo';
 import Navbar from '../Navbar/Navbar';
+import SideDrawer from '../SideDrawer/SideDrawer';
 
 class HomePage extends Component {
 
@@ -38,6 +39,7 @@ class HomePage extends Component {
                     page={this.state.activePage}
                     toggleSideDrawer={this.toggleSideDrawer}
                 />
+                <SideDrawer show={this.state.sideDrawerOpen} />
                 <Container className='text-center text-white' style={{ marginTop: '75px' }}>
                     <Row>
                         <Col>
