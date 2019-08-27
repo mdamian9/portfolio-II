@@ -4,6 +4,7 @@ import '../HomePage/HomePage.css';
 import Logo from '../Logo/Logo';
 import Navbar from '../Navbar/Navbar';
 import SideDrawer from '../SideDrawer/SideDrawer';
+import Backdrop from '../Backdrop/Backdrop';
 
 class HomePage extends Component {
 
@@ -23,23 +24,36 @@ class HomePage extends Component {
         });
     };
 
-    toggleSideDrawer = () => {
-        // this.setState(prevState => {
-        //     return { sideDrawerOpen: !prevState.sideDrawerOpen }
-        // });
-        console.log('toggle sidedrawer');
+    drawerToggleClickHandler = () => {
+        this.setState(prevState => {
+            return { sideDrawerOpen: !prevState.sideDrawerOpen }
+        });
+    };
+
+    backdropClickHandler = () => {
+        this.setState({ sideDrawerOpen: false });
     };
 
     render = () => {
+
+        console.log(this.state);
+
+        let backDrop;
+
+        if (this.state.sideDrawerOpen) {
+            backDrop = <Backdrop click={this.backdropClickHandler} />;
+        };
+
         return (
             <div className='home-page'>
                 <Logo />
                 <Navbar
                     show={this.state.navbarShowing}
                     page={this.state.activePage}
-                    toggleSideDrawer={this.toggleSideDrawer}
+                    toggleSideDrawer={this.drawerToggleClickHandler}
                 />
                 <SideDrawer show={this.state.sideDrawerOpen} />
+                {backDrop}
                 <Container className='text-center text-white' style={{ marginTop: '75px' }}>
                     <Row>
                         <Col>
@@ -70,7 +84,9 @@ class HomePage extends Component {
                 <br />
             </div>
         );
+
     };
+
 };
 
 export default HomePage;
