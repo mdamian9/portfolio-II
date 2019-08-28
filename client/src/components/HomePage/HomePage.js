@@ -16,6 +16,8 @@ class HomePage extends Component {
             activePage: 'homePage'
         };
         this.navbarToggleClickHandler = this.navbarToggleClickHandler.bind(this);
+        this.drawerToggleClickHandler = this.drawerToggleClickHandler.bind(this);
+        this.backdropClickHandler = this.backdropClickHandler.bind(this);
     };
 
     navbarToggleClickHandler = () => {
@@ -36,12 +38,10 @@ class HomePage extends Component {
 
     render = () => {
 
-        console.log(this.state);
-
-        let backDrop;
+        let backdrop;
 
         if (this.state.sideDrawerOpen) {
-            backDrop = <Backdrop click={this.backdropClickHandler} />;
+            backdrop = <Backdrop click={this.backdropClickHandler} />;
         };
 
         return (
@@ -53,11 +53,11 @@ class HomePage extends Component {
                     toggleSideDrawer={this.drawerToggleClickHandler}
                 />
                 <SideDrawer show={this.state.sideDrawerOpen} />
-                {backDrop}
+                {backdrop}
                 <Container className='text-center text-white' style={{ marginTop: '75px' }}>
                     <Row>
                         <Col>
-                            <h1>
+                            <h1 style={{ fontSize: '5vh' }}>
                                 <b>Welcome.</b>
                             </h1>
                             <h3 className='intro'>
@@ -80,8 +80,9 @@ class HomePage extends Component {
                             </Button>
                         </Col>
                     </Row>
+                    <br />
+                    <br />
                 </Container>
-                <br />
             </div>
         );
 
