@@ -1,0 +1,17 @@
+.bg-opaque {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.section-one {
+    max-width: 400px;
+}
+
+.section-two {
+    widows: 100%;
+}
+
+.my-img {
+    max-width: 400px;
+    max-height: 400px;
+    width: 100%;
+}

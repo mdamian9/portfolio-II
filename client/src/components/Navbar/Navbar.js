@@ -19,7 +19,7 @@ const Navbar = props => {
         <header className={navbarClasses}>
             <nav className='toolbar__navigation'>
                 <div className='toolbar__logo'>
-                    <a href='/home' style={{ fontSize: '1.5rem' }}>
+                    <a href='/' style={{ fontSize: '1.5rem' }}>
                         <FontAwesomeIcon icon='angle-double-right' />
                         &nbsp;HOME
                     </a>

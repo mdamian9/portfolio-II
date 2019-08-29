@@ -27,8 +27,8 @@ class HomePage extends Component {
     };
 
     drawerToggleClickHandler = () => {
-        this.setState(prevState => {
-            return { sideDrawerOpen: !prevState.sideDrawerOpen }
+        this.setState(state => {
+            return { sideDrawerOpen: !state.sideDrawerOpen }
         });
     };
 
