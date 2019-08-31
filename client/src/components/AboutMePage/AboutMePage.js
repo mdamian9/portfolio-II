@@ -6,6 +6,7 @@ import Navbar from '../Navbar/Navbar';
 import SideDrawer from '../SideDrawer/SideDrawer';
 import Backdrop from '../Backdrop/Backdrop';
 import me from '../../assets/images/img-03.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class AboutMePage extends Component {
     constructor(props) {
@@ -52,6 +53,41 @@ class AboutMePage extends Component {
                     <Row>
                         <Col className='bg-opaque section-one'>
                             <img className='my-img' src={me} alt='img' />
+                            <h2 style={{ marginTop: '5px' }}>
+                                <b>Miguel Damian</b>
+                            </h2>
+                            <div id='about-me-bullets'>
+                                <p>
+                                    <FontAwesomeIcon icon='laptop-code' className='fa-bullet' />Full Stack Web Developer</p>
+                                <p>
+                                    <FontAwesomeIcon icon='home' className='fa-bullet' />Chula Vista, CA</p>
+                                <p>
+                                    <FontAwesomeIcon icon='envelope' className='fa-bullet' />m.damian9@hotmail.com</p>
+                                <p>
+                                    <FontAwesomeIcon icon={['fab', 'github']} className='fa-bullet' />
+                                    <a href="https://github.com/mdamian9" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+                                </p>
+                                <p>
+                                    <FontAwesomeIcon icon={['fab', 'linkedin']} className='fa-bullet' />
+                                    <a href="https://www.linkedin.com/in/migueldamian" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+                                </p>
+                                <p>
+                                    <FontAwesomeIcon icon='file-alt' className='fa-bullet' />
+                                    <a href="assets/files/resume.pdf" target="_blank" rel="noopener noreferrer">Resume (PDF)</a>
+                                </p>
+                            </div>
+                            <hr />
+                            <p>
+                                <h5><b><FontAwesomeIcon icon='globe' className='fa-bullet' />Languages</b></h5>
+                            </p>
+                            <p>
+                                <b>•&ensp;English</b>
+                                <div className='fluent-lang'>Fluent</div>
+                            </p>
+                            <p>
+                                <b>•&ensp;Spanish</b>
+                                <div className='fluent-lang'>Fluent</div>
+                            </p>
                         </Col>
                         &ensp;
                         <Col className='bg-opaque section-two'>
