@@ -15,8 +15,20 @@ const Navbar = props => {
         navbarClasses = 'toolbar hide-content'
     };
 
+    // const navbar = this;
+
+    // window.onscroll = () => {
+    //     if (window.pageYOffset >= navbar.offsetTop) {
+    //         navbar.classList.add('sticky');
+    //     } else {
+    //         navbar.classList.remove('sticky');
+    //     };
+    // };
+
+    console.log(document.getElementById('navbar'));
+
     return (
-        <header className={navbarClasses}>
+        <header className={navbarClasses} id='navbar'>
             <nav className='toolbar__navigation'>
                 <div className='toolbar__logo'>
                     <a href='/' style={{ fontSize: '1.5rem' }}>
