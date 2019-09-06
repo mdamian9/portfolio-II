@@ -58,7 +58,6 @@ class AboutMePage extends Component {
                 <Navbar show={true} toggleSideDrawer={this.drawerToggleClickHandler} />
                 <SideDrawer show={this.state.sideDrawerOpen} />
                 {backdrop}
-                <br />
                 <Container className='content'>
                     <Container className='section-one'>
                         <Row>
@@ -112,7 +111,6 @@ class AboutMePage extends Component {
                         </Row>
                     </Container>
                 </Container>
-                <br />
                 <Footer />
             </div>
         );
