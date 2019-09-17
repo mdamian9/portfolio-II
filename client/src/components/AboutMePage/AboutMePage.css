@@ -53,11 +53,23 @@
 }
 
 .collapse-div {
-    outline-style: auto;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
+    /* padding: 10px; */
+}
+
+.collapse-content {
+    margin-top: .5rem;
+}
+
+.collapse-card {
+    /* background: none; */
+    border-style: solid;
+    border-radius: none;
+    outline-style: none;
 }
 
 .collapse-btn {
+    display: flex;
     width: 100%;
     background: none;
     border-style: none;
@@ -69,6 +81,10 @@
 
 .collapse-btn h5 {
     margin-top: .5rem;
+}
+
+.collapse-btn-spc {
+    flex: 1;
 }
 
 @media (max-width: 768px) {

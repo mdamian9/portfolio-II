@@ -15,6 +15,8 @@ class AboutMePage extends Component {
         this.state = {
             collapseUCSD: false,
             collapseHKUST: false,
+            collapseFCC: false,
+            collapseSolo: false,
             sideDrawerOpen: false
         };
         this.drawerToggleClickHandler = this.drawerToggleClickHandler.bind(this);
@@ -36,16 +38,45 @@ class AboutMePage extends Component {
         this.setState(state => ({
             collapseUCSD: !state.collapseUCSD
         }));
-        console.log('toggle collapse education');
+    };
+
+    toggleCollapseHKUST = () => {
+        this.setState(state => ({
+            collapseHKUST: !state.collapseHKUST
+        }));
+    };
+
+    toggleCollapseFCC = () => {
+        this.setState(state => ({
+            collapseFCC: !state.collapseFCC
+        }));
+    };
+
+    toggleCollapseSolo = () => {
+        this.setState(state => ({
+            collapseSolo: !state.collapseSolo
+        }));
     };
 
     render = () => {
 
-        let backdrop;
+        let backdrop, angleIconOne, angleIconTwo, angleIconThree, angleIconFour;
 
         if (this.state.sideDrawerOpen) {
-            backdrop = <Backdrop click={this.backdropClickHandler} />
+            backdrop = <Backdrop click={this.backdropClickHandler} />;
         };
+
+        angleIconOne = this.state.collapseUCSD === false ? <FontAwesomeIcon icon='angle-double-down' /> :
+            angleIconOne = <FontAwesomeIcon icon='angle-double-up' />;
+
+        angleIconTwo = this.state.collapseHKUST === false ? <FontAwesomeIcon icon='angle-double-down' /> :
+            angleIconTwo = <FontAwesomeIcon icon='angle-double-up' />;
+
+        angleIconThree = this.state.collapseFCC === false ? <FontAwesomeIcon icon='angle-double-down' /> :
+            angleIconThree = <FontAwesomeIcon icon='angle-double-up' />;
+
+        angleIconFour = this.state.collapseSolo === false ? <FontAwesomeIcon icon='angle-double-down' /> :
+            angleIconFour = <FontAwesomeIcon icon='angle-double-up' />;
 
         return (
             <div className='about-me-page'>
@@ -110,10 +141,13 @@ class AboutMePage extends Component {
                                                     University of California, San Diego Extension
                                                 </b>
                                             </h5>
+                                            <div className='collapse-btn-spc' />
+                                            <h5>
+                                                {angleIconOne}
+                                            </h5>
                                         </Button>
-                                        <br />
-                                        <Collapse isOpen={this.state.collapseUCSD}>
-                                            <Card>
+                                        <Collapse className='collapse-content' isOpen={this.state.collapseUCSD}>
+                                            <Card className='collapse-card'>
                                                 <CardBody>
                                                     UCSD details
                                                 </CardBody>
@@ -127,12 +161,55 @@ class AboutMePage extends Component {
                                                     Hong Kong University of Science and Technology
                                                 </b>
                                             </h5>
+                                            <div className='collapse-btn-spc' />
+                                            <h5>
+                                                {angleIconTwo}
+                                            </h5>
                                         </Button>
-                                        <br />
-                                        <Collapse isOpen={this.state.collapseHKUST}>
-                                            <Card>
+                                        <Collapse className='collapse-content' isOpen={this.state.collapseHKUST}>
+                                            <Card className='collapse-card'>
                                                 <CardBody>
                                                     HKUST details
+                                                </CardBody>
+                                            </Card>
+                                        </Collapse>
+                                    </div>
+                                    <div className='collapse-div' id='collapse-fcc'>
+                                        <Button className='collapse-btn' onClick={this.toggleCollapseFCC}>
+                                            <h5>
+                                                <b>
+                                                    freeCodeCamp (Online Learning Platform)
+                                                </b>
+                                            </h5>
+                                            <div className='collapse-btn-spc' />
+                                            <h5>
+                                                {angleIconThree}
+                                            </h5>
+                                        </Button>
+                                        <Collapse className='collapse-content' isOpen={this.state.collapseFCC}>
+                                            <Card className='collapse-card'>
+                                                <CardBody>
+                                                    FCC details
+                                                </CardBody>
+                                            </Card>
+                                        </Collapse>
+                                    </div>
+                                    <div className='collapse-div' id='collapse-solo'>
+                                        <Button className='collapse-btn' onClick={this.toggleCollapseSolo}>
+                                            <h5>
+                                                <b>
+                                                    SoloLearn (Online Learning Platform)
+                                                </b>
+                                            </h5>
+                                            <div className='collapse-btn-spc' />
+                                            <h5>
+                                                {angleIconFour}
+                                            </h5>
+                                        </Button>
+                                        <Collapse className='collapse-content' isOpen={this.state.collapseSolo}>
+                                            <Card className='collapse-card'>
+                                                <CardBody>
+                                                    SoloLearn details
                                                 </CardBody>
                                             </Card>
                                         </Collapse>
@@ -149,6 +226,3 @@ class AboutMePage extends Component {
 };
 
 export default AboutMePage;
-
-    // Updated AboutMePage
-
