@@ -17,11 +17,18 @@ class AboutMePage extends Component {
             collapseHKUST: false,
             collapseFCC: false,
             collapseSolo: false,
+            collapseSDSU: false,
+            collapseSWC: false,
             sideDrawerOpen: false
         };
         this.drawerToggleClickHandler = this.drawerToggleClickHandler.bind(this);
         this.backdropClickHandler = this.backdropClickHandler.bind(this);
         this.toggleCollapseUCSD = this.toggleCollapseUCSD.bind(this);
+        this.toggleCollapseHKUST = this.toggleCollapseHKUST.bind(this);
+        this.toggleCollapseFCC = this.toggleCollapseFCC.bind(this);
+        this.toggleCollapseSolo = this.toggleCollapseSolo.bind(this);
+        this.toggleCollapseSDSU = this.toggleCollapseSDSU.bind(this);
+        this.toggleCollapseSWC = this.toggleCollapseSWC.bind(this);
     };
 
     drawerToggleClickHandler = () => {
@@ -58,9 +65,21 @@ class AboutMePage extends Component {
         }));
     };
 
+    toggleCollapseSDSU = () => {
+        this.setState(state => ({
+            collapseSDSU: !state.collapseSDSU
+        }));
+    };
+
+    toggleCollapseSWC = () => {
+        this.setState(state => ({
+            collapseSWC: !state.collapseSWC
+        }));
+    };
+
     render = () => {
 
-        let backdrop, angleIconOne, angleIconTwo, angleIconThree, angleIconFour;
+        let backdrop, angleIconOne, angleIconTwo, angleIconThree, angleIconFour, angleIconFive, angleIconSix;
 
         if (this.state.sideDrawerOpen) {
             backdrop = <Backdrop click={this.backdropClickHandler} />;
@@ -77,6 +96,12 @@ class AboutMePage extends Component {
 
         angleIconFour = this.state.collapseSolo === false ? <FontAwesomeIcon icon='angle-double-down' /> :
             angleIconFour = <FontAwesomeIcon icon='angle-double-up' />;
+
+        angleIconFive = this.state.collapseSDSU === false ? <FontAwesomeIcon icon='angle-double-down' /> :
+            angleIconFive = <FontAwesomeIcon icon='angle-double-up' />;
+
+        angleIconSix = this.state.collapseSWC === false ? <FontAwesomeIcon icon='angle-double-down' /> :
+            angleIconSix = <FontAwesomeIcon icon='angle-double-up' />;
 
         return (
             <div className='about-me-page'>
@@ -210,6 +235,46 @@ class AboutMePage extends Component {
                                             <Card className='collapse-card'>
                                                 <CardBody>
                                                     SoloLearn details
+                                                </CardBody>
+                                            </Card>
+                                        </Collapse>
+                                    </div>
+                                    <div className='collapse-div' id='collapse-sdsu'>
+                                        <Button className='collapse-btn' onClick={this.toggleCollapseSDSU}>
+                                            <h5>
+                                                <b>
+                                                    San Diego State University
+                                                </b>
+                                            </h5>
+                                            <div className='collapse-btn-spc' />
+                                            <h5>
+                                                {angleIconFive}
+                                            </h5>
+                                        </Button>
+                                        <Collapse className='collapse-content' isOpen={this.state.collapseSDSU}>
+                                            <Card className='collapse-card'>
+                                                <CardBody>
+                                                    SDSU details
+                                                </CardBody>
+                                            </Card>
+                                        </Collapse>
+                                    </div>
+                                    <div className='collapse-div' id='collapse-swc'>
+                                        <Button className='collapse-btn' onClick={this.toggleCollapseSWC}>
+                                            <h5>
+                                                <b>
+                                                    Southwestern College
+                                                </b>
+                                            </h5>
+                                            <div className='collapse-btn-spc' />
+                                            <h5>
+                                                {angleIconSix}
+                                            </h5>
+                                        </Button>
+                                        <Collapse className='collapse-content' isOpen={this.state.collapseSWC}>
+                                            <Card className='collapse-card'>
+                                                <CardBody>
+                                                    Southwestern College details
                                                 </CardBody>
                                             </Card>
                                         </Collapse>
