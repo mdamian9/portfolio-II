@@ -4,13 +4,13 @@
 
 .content {
     display: flex;
-    /* justify-content: center; */
-    /* margin: 0px 100px; */
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .container {
     max-width: 1280px;
-    margin: 20px 0px
 }
 
 .bg-opaque {
@@ -50,6 +50,25 @@
 
 .about-me-bullets a {
     color: red;
+}
+
+.collapse-div {
+    outline-style: auto;
+    margin-bottom: 10px;
+}
+
+.collapse-btn {
+    width: 100%;
+    background: none;
+    border-style: none;
+    outline: none;
+    color: rgb(110, 110, 110);
+    outline-style: none;
+    padding: none;
+}
+
+.collapse-btn h5 {
+    margin-top: .5rem;
 }
 
 @media (max-width: 768px) {

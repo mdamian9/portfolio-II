@@ -13,12 +13,13 @@ class AboutMePage extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            collapseEducation: false,
+            collapseUCSD: false,
+            collapseHKUST: false,
             sideDrawerOpen: false
         };
         this.drawerToggleClickHandler = this.drawerToggleClickHandler.bind(this);
         this.backdropClickHandler = this.backdropClickHandler.bind(this);
-        this.toggleCollapseEducation = this.toggleCollapseEducation.bind(this);
+        this.toggleCollapseUCSD = this.toggleCollapseUCSD.bind(this);
     };
 
     drawerToggleClickHandler = () => {
@@ -31,15 +32,11 @@ class AboutMePage extends Component {
         this.setState({ sideDrawerOpen: false });
     };
 
-    toggleCollapseEducation = () => {
-        // this.setState(state => ({
-        //     collapseEducation: !state.collapseEducation
-        // }));
+    toggleCollapseUCSD = () => {
+        this.setState(state => ({
+            collapseUCSD: !state.collapseUCSD
+        }));
         console.log('toggle collapse education');
-    };
-
-    componentDidUpdate = () => {
-        console.log(document.getElementById('navbar'));
     };
 
     render = () => {
@@ -49,8 +46,6 @@ class AboutMePage extends Component {
         if (this.state.sideDrawerOpen) {
             backdrop = <Backdrop click={this.backdropClickHandler} />
         };
-
-        console.log(document.getElementById('navbar'));
 
         return (
             <div className='about-me-page'>
@@ -104,8 +99,44 @@ class AboutMePage extends Component {
                     <Container className='section-two'>
                         <Row>
                             <Col>
-                                <div className='bg-opaque'>
-                                    Column 2
+                                <div className='bg-opaque' style={{ padding: '30px' }}>
+                                    <h2 style={{ marginBottom: '20px' }}>
+                                        <FontAwesomeIcon icon='graduation-cap' className='text-danger' />&ensp;<b>Education</b>
+                                    </h2>
+                                    <div className='collapse-div' id='collapse-ucsd'>
+                                        <Button className='collapse-btn' onClick={this.toggleCollapseUCSD}>
+                                            <h5>
+                                                <b>
+                                                    University of California, San Diego Extension
+                                                </b>
+                                            </h5>
+                                        </Button>
+                                        <br />
+                                        <Collapse isOpen={this.state.collapseUCSD}>
+                                            <Card>
+                                                <CardBody>
+                                                    UCSD details
+                                                </CardBody>
+                                            </Card>
+                                        </Collapse>
+                                    </div>
+                                    <div className='collapse-div' id='collapse-hkust'>
+                                        <Button className='collapse-btn' onClick={this.toggleCollapseHKUST}>
+                                            <h5>
+                                                <b>
+                                                    Hong Kong University of Science and Technology
+                                                </b>
+                                            </h5>
+                                        </Button>
+                                        <br />
+                                        <Collapse isOpen={this.state.collapseHKUST}>
+                                            <Card>
+                                                <CardBody>
+                                                    HKUST details
+                                                </CardBody>
+                                            </Card>
+                                        </Collapse>
+                                    </div>
                                 </div>
                             </Col>
                         </Row>
