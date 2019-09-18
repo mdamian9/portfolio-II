@@ -8,12 +8,13 @@ import Backdrop from '../Backdrop/Backdrop';
 import Footer from '../Footer/Footer';
 import me from '../../assets/images/img-03.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import CollapseUCSD from '../CollapseUCSD/CollapseUCSD';
 
 class AboutMePage extends Component {
+
     constructor(props) {
         super(props);
         this.state = {
-            collapseUCSD: false,
             collapseHKUST: false,
             collapseFCC: false,
             collapseSolo: false,
@@ -23,7 +24,6 @@ class AboutMePage extends Component {
         };
         this.drawerToggleClickHandler = this.drawerToggleClickHandler.bind(this);
         this.backdropClickHandler = this.backdropClickHandler.bind(this);
-        this.toggleCollapseUCSD = this.toggleCollapseUCSD.bind(this);
         this.toggleCollapseHKUST = this.toggleCollapseHKUST.bind(this);
         this.toggleCollapseFCC = this.toggleCollapseFCC.bind(this);
         this.toggleCollapseSolo = this.toggleCollapseSolo.bind(this);
@@ -39,12 +39,6 @@ class AboutMePage extends Component {
 
     backdropClickHandler = () => {
         this.setState({ sideDrawerOpen: false });
-    };
-
-    toggleCollapseUCSD = () => {
-        this.setState(state => ({
-            collapseUCSD: !state.collapseUCSD
-        }));
     };
 
     toggleCollapseHKUST = () => {
@@ -159,26 +153,7 @@ class AboutMePage extends Component {
                                     <h2 style={{ marginBottom: '20px' }}>
                                         <FontAwesomeIcon icon='graduation-cap' className='text-danger' />&ensp;<b>Education</b>
                                     </h2>
-                                    <div className='collapse-div' id='collapse-ucsd'>
-                                        <Button className='collapse-btn' onClick={this.toggleCollapseUCSD}>
-                                            <h5>
-                                                <b>
-                                                    University of California, San Diego Extension
-                                                </b>
-                                            </h5>
-                                            <div className='collapse-btn-spc' />
-                                            <h5>
-                                                {angleIconOne}
-                                            </h5>
-                                        </Button>
-                                        <Collapse className='collapse-content' isOpen={this.state.collapseUCSD}>
-                                            <Card className='collapse-card'>
-                                                <CardBody>
-                                                    UCSD details
-                                                </CardBody>
-                                            </Card>
-                                        </Collapse>
-                                    </div>
+                                    <CollapseUCSD />
                                     <div className='collapse-div' id='collapse-hkust'>
                                         <Button className='collapse-btn' onClick={this.toggleCollapseHKUST}>
                                             <h5>
