@@ -27,6 +27,7 @@ class CollapseHKUST extends Component {
             <div className='collapse-div' id='collapse-HKUST'>
                 <Button className='collapse-btn' onClick={this.toggle}>
                     <h5>
+                        <FontAwesomeIcon icon='award' />&ensp;
                         <b>
                             Hong Kong University of Science and Technology (through Coursera)
                         </b>
@@ -39,7 +40,11 @@ class CollapseHKUST extends Component {
                 <Collapse className='collapse-content' isOpen={this.state.collapse}>
                     <Card className='collapse-card'>
                         <CardBody>
-                            HKUST details
+                            <h6 className='text-red'>
+                                <FontAwesomeIcon icon='calendar-alt' />&emsp;November 2018 - January 2019
+                                <br />
+                                <FontAwesomeIcon icon='certificate' />&emsp;Full Stack Web Development with React Specialization
+                            </h6>
                         </CardBody>
                     </Card>
                 </Collapse>

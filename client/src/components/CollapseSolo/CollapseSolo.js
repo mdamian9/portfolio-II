@@ -27,6 +27,7 @@ class CollapseSolo extends Component {
             <div className='collapse-div' id='collapse-solo'>
                 <Button className='collapse-btn' onClick={this.toggle}>
                     <h5>
+                        <FontAwesomeIcon icon='award' />&ensp;
                         <b>
                             SoloLearn (Online Learning Platform)
                         </b>

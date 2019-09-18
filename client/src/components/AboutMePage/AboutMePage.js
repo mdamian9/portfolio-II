@@ -96,12 +96,13 @@ class AboutMePage extends Component {
                             </Col>
                         </Row>
                     </Container>
+                    <br />
                     <Container className='section-two'>
                         <Row>
                             <Col>
                                 <div className='bg-opaque' style={{ padding: '30px' }}>
                                     <h2 style={{ marginBottom: '20px' }}>
-                                        <FontAwesomeIcon icon='graduation-cap' className='text-danger' />&ensp;<b>Education</b>
+                                        <FontAwesomeIcon icon='graduation-cap' className='text-red' />&ensp;<b>Education</b>
                                     </h2>
                                     <CollapseHKUST />
                                     <CollapseUCSD />

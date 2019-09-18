@@ -27,9 +27,10 @@ class CollapseUCSD extends Component {
             <div className='collapse-div' id='collapse-ucsd'>
                 <Button className='collapse-btn' onClick={this.toggle}>
                     <h5>
+                        <FontAwesomeIcon icon='award' />&ensp;
                         <b>
                             University of California, San Diego Extension
-                    </b>
+                        </b>
                     </h5>
                     <div className='collapse-btn-spc' />
                     <h5>

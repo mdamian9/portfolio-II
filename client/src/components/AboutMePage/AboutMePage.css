@@ -10,7 +10,7 @@
 }
 
 .container {
-    max-width: 1280px;
+    max-width: 1400px;
 }
 
 .bg-opaque {
@@ -57,6 +57,10 @@
     /* padding: 10px; */
 }
 
+#collapse-swc {
+    margin-bottom: none;
+}
+
 .collapse-content {
     margin-top: .5rem;
 }
@@ -77,9 +81,10 @@
     color: rgb(110, 110, 110);
     outline-style: none;
     padding: none;
+    text-align: left;
 }
 
-.collapse-btn h5 {
+.section-two h5, h6 {
     margin-top: .5rem;
 }
 

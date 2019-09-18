@@ -27,6 +27,7 @@ class CollapseFCC extends Component {
             <div className='collapse-div' id='collapse-FCC'>
                 <Button className='collapse-btn' onClick={this.toggle}>
                     <h5>
+                        <FontAwesomeIcon icon='award' />&ensp;
                         <b>
                             freeCodeCamp (Online Learning Platform)
                         </b>

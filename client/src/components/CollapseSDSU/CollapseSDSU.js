@@ -27,6 +27,7 @@ class CollapseSDSU extends Component {
             <div className='collapse-div' id='collapse-sdsu'>
                 <Button className='collapse-btn' onClick={this.toggle}>
                     <h5>
+                        <FontAwesomeIcon icon='book-reader' />&ensp;
                         <b>
                             San Diego State University
                         </b>
