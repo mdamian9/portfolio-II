@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Collapse, Button, CardBody, Card } from 'reactstrap';
+import { Row, Col, Collapse, Button, CardBody, Card } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class CollapseHKUST extends Component {
@@ -45,6 +45,39 @@ class CollapseHKUST extends Component {
                                 <br />
                                 <FontAwesomeIcon icon='certificate' />&emsp;Full Stack Web Development with React Specialization
                             </h6>
+                            <Row>
+                                <Col>
+                                    <i><b>Front-End Web UI Frameworks and Tools: Bootstrap 4</b></i>
+                                    <br />
+                                    <b>Link: <a href='https://bit.ly/2lW8UmO' target='_blank' rel='noopener noreferrer'>https://bit.ly/2lW8UmOs</a></b>
+                                </Col>
+                                <Col>
+                                    <i><b>Front-End Web Development with React</b></i>
+                                    <br />
+                                    <b>Link: <a href='https://bit.ly/2mfd0Xg' target='_blank' rel='noopener noreferrer'>https://bit.ly/2mfd0Xg</a></b>
+                                </Col>
+                            </Row>
+                            <br />
+                            <Row>
+                                <Col>
+                                    <i><b>Multiplatform Mobile App Development with React Native</b></i>
+                                    <br />
+                                    <b>Link: <a href='https://bit.ly/2mnr01n' target='_blank' rel='noopener noreferrer'>https://bit.ly/2mnr01n</a></b>
+                                </Col>
+                                <Col>
+                                    <i><b>Server-side Development with NodeJS, Express and MongoDB</b></i>
+                                    <br />
+                                    <b>Link: <a href='https://bit.ly/2kFLCBC' target='_blank' rel='noopener noreferrer'>https://bit.ly/2kFLCBC</a></b>
+                                </Col>
+                            </Row>
+                            <br />
+                            <Row>
+                                <Col>
+                                    <i><b>Specialization Certificate</b></i>
+                                    <br />
+                                    <b>Link: <a href='https://bit.ly/2kmpMCL' target='_blank' rel='noopener noreferrer'>https://bit.ly/2kmpMCL</a></b>
+                                </Col>
+                            </Row>
                         </CardBody>
                     </Card>
                 </Collapse>

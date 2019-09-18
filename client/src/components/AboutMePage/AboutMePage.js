@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './AboutMePage.css';
-import { Container, Row, Col, Collapse, Button, CardBody, Card } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
 import Logo from '../Logo/Logo';
 import Navbar from '../Navbar/Navbar';
 import SideDrawer from '../SideDrawer/SideDrawer';
@@ -22,9 +22,6 @@ class AboutMePage extends Component {
         this.drawerToggleClickHandler = this.drawerToggleClickHandler.bind(this);
         this.backdropClickHandler = this.backdropClickHandler.bind(this);
         this.state = {
-            collapseSolo: false,
-            collapseSDSU: false,
-            collapseSWC: false,
             sideDrawerOpen: false
         };
     };
