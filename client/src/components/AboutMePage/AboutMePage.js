@@ -14,6 +14,7 @@ import CollapseFCC from '../CollapseFCC/CollapseFCC';
 import CollapseSolo from '../CollapseSolo/CollapseSolo';
 import CollapseSDSU from '../CollapseSDSU/CollapseSDSU';
 import CollapseSWC from '../CollapseSWC/CollapseSWC';
+import CollapseINO from '../CollapseINO/CollapseINO';
 
 class AboutMePage extends Component {
 
@@ -107,6 +108,17 @@ class AboutMePage extends Component {
                                     <CollapseSolo />
                                     <CollapseSDSU />
                                     <CollapseSWC />
+                                </div>
+                            </Col>
+                        </Row>
+                        <br />
+                        <Row>
+                            <Col>
+                                <div className='bg-opaque' style={{ padding: '30px' }}>
+                                    <h2 style={{ marginBottom: '20px' }}>
+                                        <FontAwesomeIcon icon='briefcase' className='text-red' />&ensp;<b>Experience</b>
+                                    </h2>
+                                    <CollapseINO />
                                 </div>
                             </Col>
                         </Row>

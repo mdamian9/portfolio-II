@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { Collapse, Button, CardBody, Card } from 'reactstrap';
+import { Row, Col, Collapse, Button, CardBody, Card } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-class CollapseFCC extends Component {
+class CollapseINO extends Component {
 
     constructor(props) {
         super(props);
@@ -24,12 +24,12 @@ class CollapseFCC extends Component {
         };
 
         return (
-            <div className='collapse-div' id='collapse-fcc'>
+            <div className='collapse-div' id='collapse-ino'>
                 <Button className='collapse-btn' onClick={this.toggle}>
                     <h5>
-                        <FontAwesomeIcon icon='award' />&ensp;
+                        <FontAwesomeIcon icon='certificate' />&ensp;
                         <b>
-                            freeCodeCamp (Online Learning Platform)
+                            In-N-Out Burger
                         </b>
                     </h5>
                     <div className='collapse-btn-spc' />
@@ -40,7 +40,14 @@ class CollapseFCC extends Component {
                 <Collapse className='collapse-content' isOpen={this.state.collapse}>
                     <Card className='collapse-card'>
                         <CardBody>
-                            FCC details
+                            <h6 className='text-red'>
+                                <FontAwesomeIcon icon='calendar-alt' />&emsp;December 2015 - Present
+                            </h6>
+                            <Row>
+                                <Col>
+                                    <i><b>Level 5 Associate</b></i>
+                                </Col>
+                            </Row>
                         </CardBody>
                     </Card>
                 </Collapse>
@@ -51,4 +58,4 @@ class CollapseFCC extends Component {
 
 };
 
-export default CollapseFCC;
+export default CollapseINO;
