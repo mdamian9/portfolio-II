@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Row, Col, Collapse, Button, CardBody, Card } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-class CollapseINO extends Component {
+class CollapseIRCV extends Component {
 
     constructor(props) {
         super(props);
@@ -24,12 +24,12 @@ class CollapseINO extends Component {
         };
 
         return (
-            <div className='collapse-div' id='collapse-ino'>
+            <div className='collapse-div' id='collapse-ircv'>
                 <Button className='collapse-btn' onClick={this.toggle}>
                     <h5>
-                        <FontAwesomeIcon icon='hamburger' />&ensp;
+                        <FontAwesomeIcon icon='tools' />&ensp;
                         <b>
-                            In-N-Out Burger
+                            iDevice Repair Chula Vista
                         </b>
                     </h5>
                     <div className='collapse-btn-spc' />
@@ -41,11 +41,11 @@ class CollapseINO extends Component {
                     <Card className='collapse-card'>
                         <CardBody>
                             <h6 className='text-red'>
-                                <FontAwesomeIcon icon='calendar-alt' />&emsp;December 2015 - Present
+                                <FontAwesomeIcon icon='calendar-alt' />&emsp;January 2013 - Present
                             </h6>
                             <Row>
                                 <Col>
-                                    <i><b>Level 5 Associate</b></i>
+                                    <i><b>Co-Founder / CEO / Technician / Customer Service Specialist</b></i>
                                 </Col>
                             </Row>
                         </CardBody>
@@ -58,4 +58,4 @@ class CollapseINO extends Component {
 
 };
 
-export default CollapseINO;
+export default CollapseIRCV;

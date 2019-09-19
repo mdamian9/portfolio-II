@@ -15,6 +15,7 @@ import CollapseSolo from '../CollapseSolo/CollapseSolo';
 import CollapseSDSU from '../CollapseSDSU/CollapseSDSU';
 import CollapseSWC from '../CollapseSWC/CollapseSWC';
 import CollapseINO from '../CollapseINO/CollapseINO';
+import CollapseIRCV from '../CollapseIRCV/CollapseIRCV';
 
 class AboutMePage extends Component {
 
@@ -119,6 +120,7 @@ class AboutMePage extends Component {
                                         <FontAwesomeIcon icon='briefcase' className='text-red' />&ensp;<b>Experience</b>
                                     </h2>
                                     <CollapseINO />
+                                    <CollapseIRCV />
                                 </div>
                             </Col>
                         </Row>

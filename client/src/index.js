@@ -8,7 +8,9 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import {
     faUserCircle, faFileCode, faEnvelopeSquare, faAngleDoubleRight, faBars, faEnvelope, faFileAlt, faLaptopCode, faHome,
     faGlobe, faGraduationCap, faAngleDoubleDown, faAngleDoubleUp, faCertificate, faAward, faBookReader, faCalendarAlt,
-    faBriefcase
+    faBriefcase,
+    faHamburger,
+    faTools
 } from '@fortawesome/free-solid-svg-icons'
 import App from './App';
 import * as serviceWorker from './serviceWorker';
@@ -18,7 +20,7 @@ import AboutMePage from './components/AboutMePage/AboutMePage';
 library.add(
     fab, faUserCircle, faFileCode, faEnvelopeSquare, faAngleDoubleRight, faBars, faEnvelope, faFileAlt, faLaptopCode, faHome,
     faGlobe, faGraduationCap, faAngleDoubleDown, faAngleDoubleUp, faCalendarAlt, faCertificate, faAward, faBookReader,
-    faBriefcase
+    faBriefcase, faHamburger, faTools
 );
 
 ReactDOM.render(
