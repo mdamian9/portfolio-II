@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { Collapse, Button, CardBody, Card } from 'reactstrap';
+import { Row, Col, Collapse, Button, CardBody, Card } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import ucsdCert from '../../assets/images/ucsd_webdev_cert.jpg';
 
 class CollapseUCSD extends Component {
 
@@ -40,11 +41,50 @@ class CollapseUCSD extends Component {
                 <Collapse className='collapse-content' isOpen={this.state.collapse}>
                     <Card className='collapse-card'>
                         <CardBody>
-                            UCSD details
+                            <h6 className='text-red'>
+                                <FontAwesomeIcon icon='calendar-alt' />&emsp;June 4, 2018 - August 28, 2019
+                                <br />
+                                <FontAwesomeIcon icon='certificate' />&emsp;Full-Stack Web Development Coding Bootcamp
+                            </h6>
+                            <Row>
+                                <Col>
+                                    <img className='cert' src={ucsdCert} alt='ucsd-cert' />
+                                    <br />
+                                    <br />
+                                    <p>
+                                        Completed an intensive full stack web development program. Learned the following skills /
+                                        technologies:
+                                    </p>
+                                    <ul>
+                                        <li>HTML</li>
+                                        <li>CSS3</li>
+                                        <li>Bootstrap</li>
+                                        <li>JavaScript</li>
+                                        <li>jQuery</li>
+                                        <li>MongoDB</li>
+                                        <li>Express.js</li>
+                                        <li>React.js</li>
+                                        <li>Node.js</li>
+                                        <li>MySQL</li>
+                                        <li>Command Line</li>
+                                        <li>Git</li>
+                                        <li>GitHub</li>
+                                        <li>Heroku</li>
+                                    </ul>
+                                </Col>
+                                <Col>
+                                    <ul>
+                                        <li>250 hours of instruction</li>
+                                        <li>350+ hours of work outside of class</li>
+                                        <li>15 individual projects completed</li>
+                                        <li>3 web applications completed (group projects)</li>
+                                    </ul>
+                                </Col>
+                            </Row>
                         </CardBody>
                     </Card>
                 </Collapse>
-            </div>
+            </div >
         );
 
     };

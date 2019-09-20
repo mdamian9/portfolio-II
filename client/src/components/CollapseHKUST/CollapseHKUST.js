@@ -54,34 +54,34 @@ class CollapseHKUST extends Component {
                             <Row>
                                 <Col>
                                     <i><b>Front-End Web UI Frameworks and Tools: Bootstrap 4</b></i>
-                                    <img className='cert' src={hkust_1} alt='hkust-01' />
-                                    <b>Link: <a href='https://bit.ly/2lW8UmO' target='_blank' rel='noopener noreferrer'>https://bit.ly/2lW8UmOs</a></b>
+                                    <a href='https://bit.ly/2lW8UmO' target='_blank' rel='noopener noreferrer'><img className='cert' src={hkust_1} alt='hkust-01' /></a>
+                                    {/* <b>Link: <a href='https://bit.ly/2lW8UmO' target='_blank' rel='noopener noreferrer'>https://bit.ly/2lW8UmOs</a></b> */}
                                 </Col>
                                 <Col>
                                     <i><b>Front-End Web Development with React</b></i>
-                                    <img className='cert' src={hkust_2} alt='hkust-02' />
-                                    <b>Link: <a href='https://bit.ly/2mfd0Xg' target='_blank' rel='noopener noreferrer'>https://bit.ly/2mfd0Xg</a></b>
+                                    <a href='https://bit.ly/2mfd0Xg' target='_blank' rel='noopener noreferrer'><img className='cert' src={hkust_2} alt='hkust-02' /></a>
+                                    {/* <b>Link: <a href='https://bit.ly/2mfd0Xg' target='_blank' rel='noopener noreferrer'>https://bit.ly/2mfd0Xg</a></b> */}
                                 </Col>
                             </Row>
                             <br />
                             <Row>
                                 <Col>
                                     <i><b>Multiplatform Mobile App Development with React Native</b></i>
-                                    <img className='cert' src={hkust_3} alt='hkust-03' />
-                                    <b>Link: <a href='https://bit.ly/2mnr01n' target='_blank' rel='noopener noreferrer'>https://bit.ly/2mnr01n</a></b>
+                                    <a href='https://bit.ly/2mnr01n' target='_blank' rel='noopener noreferrer'><img className='cert' src={hkust_3} alt='hkust-03' /></a>
+                                    {/* <b>Link: <a href='https://bit.ly/2mnr01n' target='_blank' rel='noopener noreferrer'>https://bit.ly/2mnr01n</a></b> */}
                                 </Col>
                                 <Col>
                                     <i><b>Server-side Development with NodeJS, Express and MongoDB</b></i>
-                                    <img className='cert' src={hkust_4} alt='hkust-04' />
-                                    <b>Link: <a href='https://bit.ly/2kFLCBC' target='_blank' rel='noopener noreferrer'>https://bit.ly/2kFLCBC</a></b>
+                                    <a href='https://bit.ly/2kFLCBC' target='_blank' rel='noopener noreferrer'><img className='cert' src={hkust_4} alt='hkust-04' /></a>
+                                    {/* <b>Link: <a href='https://bit.ly/2kFLCBC' target='_blank' rel='noopener noreferrer'>https://bit.ly/2kFLCBC</a></b> */}
                                 </Col>
                             </Row>
                             <br />
                             <Row>
                                 <Col>
                                     <i><b>Specialization Certificate</b></i>
-                                    <img className='cert' src={hkust_5} alt='hkust-05' />
-                                    <b>Link: <a href='https://bit.ly/2kmpMCL' target='_blank' rel='noopener noreferrer'>https://bit.ly/2kmpMCL</a></b>
+                                    <a href='https://bit.ly/2kmpMCL' target='_blank' rel='noopener noreferrer'><img className='cert' src={hkust_5} alt='hkust-05' /></a>
+                                    {/* <b>Link: <a href='https://bit.ly/2kmpMCL' target='_blank' rel='noopener noreferrer'>https://bit.ly/2kmpMCL</a></b> */}
                                 </Col>
                                 <Col></Col>
                             </Row>
