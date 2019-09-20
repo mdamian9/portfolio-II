@@ -16,6 +16,7 @@ import CollapseSDSU from '../CollapseSDSU/CollapseSDSU';
 import CollapseSWC from '../CollapseSWC/CollapseSWC';
 import CollapseINO from '../CollapseINO/CollapseINO';
 import CollapseIRCV from '../CollapseIRCV/CollapseIRCV';
+import CollapseSwiss from '../CollapseSwiss/CollapseSwiss';
 
 class AboutMePage extends Component {
 
@@ -121,6 +122,7 @@ class AboutMePage extends Component {
                                     </h2>
                                     <CollapseINO />
                                     <CollapseIRCV />
+                                    <CollapseSwiss />
                                 </div>
                             </Col>
                         </Row>

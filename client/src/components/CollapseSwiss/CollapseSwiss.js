@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Row, Col, Collapse, Button, CardBody, Card } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-class CollapseINO extends Component {
+class CollapseSwiss extends Component {
 
     constructor(props) {
         super(props);
@@ -24,12 +24,12 @@ class CollapseINO extends Component {
         };
 
         return (
-            <div className='collapse-div' id='collapse-ino'>
+            <div className='collapse-div' id='collapse-swiss'>
                 <Button className='collapse-btn' onClick={this.toggle}>
                     <h5>
-                        <FontAwesomeIcon icon='hamburger' />&ensp;
+                        <FontAwesomeIcon icon='place-of-worship' />&ensp;
                         <b>
-                            In-N-Out Burger
+                            Swiss Park & Hall
                         </b>
                     </h5>
                     <div className='collapse-btn-spc' />
@@ -41,19 +41,11 @@ class CollapseINO extends Component {
                     <Card className='collapse-card'>
                         <CardBody>
                             <h6 className='text-red'>
-                                <FontAwesomeIcon icon='calendar-alt' />&emsp;December 2015 - Present
+                                <FontAwesomeIcon icon='calendar-alt' />&emsp;November 2013 - July 2015
                             </h6>
                             <Row>
                                 <Col>
-                                    <i><b>Level 5 Associate</b></i>
-                                    <hr />
-                                    <p>
-                                        Duties include working effectively and communicating at a high level with team members
-                                        and other associates in order to ensure the highest quality products and best
-                                        customer experience possible at a fast food restaurant. also, train lower level associates
-                                        and help them obtain the skills / tools they need to exceed work expectations and move
-                                        up the work ladder.
-                                    </p>
+                                    <i><b>Server / Busser / Caterer / Event Organizer</b></i>
                                 </Col>
                             </Row>
                         </CardBody>
@@ -66,4 +58,4 @@ class CollapseINO extends Component {
 
 };
 
-export default CollapseINO;
+export default CollapseSwiss;
