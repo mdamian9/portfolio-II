@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './AboutMePage.css';
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col, Card, CardBody } from 'reactstrap';
 import Logo from '../Logo/Logo';
 import Navbar from '../Navbar/Navbar';
 import SideDrawer from '../SideDrawer/SideDrawer';
@@ -84,12 +84,58 @@ class AboutMePage extends Component {
                                     </div>
                                     <hr />
                                     <div className='about-me-bullets'>
-                                        <h5><b><FontAwesomeIcon icon='globe' className='fa-bullet' />Languages</b></h5>
+                                        <h4><b><FontAwesomeIcon icon='globe' className='fa-bullet' />Languages</b></h4>
                                         <b>•&ensp;English</b>
                                         <div className='fluent-lang'>Fluent</div>
                                         <br />
                                         <b>•&ensp;Spanish</b>
                                         <div className='fluent-lang'>Fluent</div>
+                                    </div>
+                                    <br />
+                                    <div className='about-me-bullets'>
+                                        <h4><b><FontAwesomeIcon icon='star' className='fa-bullet' />Skills</b></h4>
+                                        <Card>
+                                            <CardBody style={{ overflowX: "auto", marginRight: '50px' }}>
+                                                <table style={{ width: "100%" }}>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <ul>
+                                                                    <li>HTML5</li>
+                                                                    <li>CSS3</li>
+                                                                    <li>JavaScript</li>
+                                                                    <li>jQuery</li>
+                                                                </ul>
+                                                            </td>
+                                                            <td>
+                                                                <ul>
+                                                                    <li>React.js</li>
+                                                                    <li>React Native</li>
+                                                                    <li>Node.js</li>
+                                                                    <li>Express.js</li>
+                                                                </ul>
+                                                            </td>
+                                                            <td>
+                                                                <ul>
+                                                                    <li>Bootstrap</li>
+                                                                    <li>Reactstrap</li>
+                                                                    <li>MongoDB</li>
+                                                                    <li>MySQL</li>
+                                                                </ul>
+                                                            </td>
+                                                            <td>
+                                                                <ul>
+                                                                    <li>Command Line</li>
+                                                                    <li>Git</li>
+                                                                    <li>GitHub</li>
+                                                                    <li>Heroku</li>
+                                                                </ul>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </CardBody>
+                                        </Card>
                                     </div>
                                     <br />
                                 </div>

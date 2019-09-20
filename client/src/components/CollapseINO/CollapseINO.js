@@ -50,7 +50,7 @@ class CollapseINO extends Component {
                                     <p>
                                         Duties include working effectively and communicating at a high level with team members
                                         and other associates in order to ensure the highest quality products and best
-                                        customer experience possible at a fast food restaurant. also, train lower level associates
+                                        customer experience possible at a fast food restaurant. Also, train lower level associates
                                         and help them obtain the skills / tools they need to exceed work expectations and move
                                         up the work ladder.
                                     </p>

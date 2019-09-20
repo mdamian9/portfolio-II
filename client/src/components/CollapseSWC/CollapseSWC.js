@@ -24,7 +24,7 @@ class CollapseSWC extends Component {
         };
 
         return (
-            <div className='collapse-div' id='collapse-swc' style={{ marginBottom: 'none' }}>
+            <div id='collapse-swc' style={{ marginBottom: 'none' }}>
                 <Button className='collapse-btn' onClick={this.toggle}>
                     <h5>
                         <FontAwesomeIcon icon='book-reader' />&ensp;

@@ -24,7 +24,7 @@ class CollapseSwiss extends Component {
         };
 
         return (
-            <div className='collapse-div' id='collapse-swiss'>
+            <div id='collapse-swiss'>
                 <Button className='collapse-btn' onClick={this.toggle}>
                     <h5>
                         <FontAwesomeIcon icon='place-of-worship' />&ensp;
@@ -46,6 +46,11 @@ class CollapseSwiss extends Component {
                             <Row>
                                 <Col>
                                     <i><b>Server / Busser / Caterer / Event Organizer</b></i>
+                                    <hr />
+                                    <p>
+                                        Set-up and organized events such as weddings, quinceañeras, sweet sixteen parties, and club meetings. Worked as a server
+                                        and busser during events. Also catered and set-up events outside of our location.
+                                    </p>
                                 </Col>
                             </Row>
                         </CardBody>

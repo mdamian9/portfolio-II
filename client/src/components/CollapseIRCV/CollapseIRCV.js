@@ -46,6 +46,15 @@ class CollapseIRCV extends Component {
                             <Row>
                                 <Col>
                                     <i><b>Co-Founder / CEO / Technician / Customer Service Specialist</b></i>
+                                    <hr />
+                                    <p>
+                                        Started an electronic device repair business with my brother. We work with mostly Apple iPhone products, but have repaired
+                                        others on occasion. We perform a plethora of hardware and iPhone software repairs such as repairing
+                                        cracked screens, blown speakers, bad batteries, etc. All repairs are done at home, and we have
+                                        many repeat clients that know we are reliable and professional to work with. I created and have
+                                        maintained an Instagram account for our small business to date, in which we showcase our work
+                                        and communicate with clients.<br /><br /> Link to Instagram page: <a href="https://instagram.com/idevicerepaircv" target="_blank" rel="noopener noreferrer">https://instagram.com/idevicerepaircv</a>
+                                    </p>
                                 </Col>
                             </Row>
                         </CardBody>

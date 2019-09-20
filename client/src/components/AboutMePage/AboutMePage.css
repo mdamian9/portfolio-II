@@ -58,7 +58,11 @@
 }
 
 #collapse-swc {
-    margin-bottom: none;
+    margin-top: 1rem;
+}
+
+#collapse-swiss {
+    margin-top: 1rem;
 }
 
 .collapse-content {
