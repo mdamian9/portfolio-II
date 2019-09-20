@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { Collapse, Button, CardBody, Card } from 'reactstrap';
+import { Row, Col, Collapse, Button, CardBody, Card } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import solo_1 from '../../assets/images/sololearn-html.jpg';
 
 class CollapseSolo extends Component {
 
@@ -40,7 +41,21 @@ class CollapseSolo extends Component {
                 <Collapse className='collapse-content' isOpen={this.state.collapse}>
                     <Card className='collapse-card'>
                         <CardBody>
-                            SoloLearn details
+                            <Row>
+                                <Col>
+                                    <i><b>HTML Fundamentals</b></i>
+                                    <a href='https://bit.ly/2mrprzv' target='_blank' rel='noopener noreferrer'><img className='cert' src={solo_1} alt='solo-01' /></a>
+                                </Col>
+                                <Col>
+                                </Col>
+                            </Row>
+                            <br />
+                            <Row>
+                                <Col>
+                                </Col>
+                                <Col>
+                                </Col>
+                            </Row>
                         </CardBody>
                     </Card>
                 </Collapse>

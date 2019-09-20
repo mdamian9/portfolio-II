@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import { Collapse, Button, CardBody, Card } from 'reactstrap';
+import { Row, Col, Collapse, Button, CardBody, Card } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import fcc_1 from '../../assets/images/fcc-01.png';
+import fcc_2 from '../../assets/images/fcc-02.png';
 
 class CollapseFCC extends Component {
 
@@ -40,7 +42,25 @@ class CollapseFCC extends Component {
                 <Collapse className='collapse-content' isOpen={this.state.collapse}>
                     <Card className='collapse-card'>
                         <CardBody>
-                            FCC details
+                            <h6 className='text-red'>
+                                <FontAwesomeIcon icon='calendar-alt' />&emsp;November 2018 - Present
+                                <br />
+                                <FontAwesomeIcon icon='certificate' />&emsp;Full-Stack Web Development
+                            </h6>
+                            <Row>
+                                <Col>
+                                    <i><b>Responsive Web Design Certificate</b></i>
+                                    <a href='https://bit.ly/2m0YbYj' target='_blank' rel='noopener noreferrer'>
+                                        <img className='cert' src={fcc_1} alt='fcc-01' />
+                                    </a>
+                                </Col>
+                                <Col>
+                                    <i><b>JavaScript Algorithms and Data Structures Certificate</b></i>
+                                    <a href='https://bit.ly/2kquSxR' target='_blank' rel='noopener noreferrer'>
+                                        <img className='cert' src={fcc_2} alt='fcc-02' />
+                                    </a>
+                                </Col>
+                            </Row>
                         </CardBody>
                     </Card>
                 </Collapse>
