@@ -40,7 +40,17 @@ class CollapseSWC extends Component {
                 <Collapse className='collapse-content' isOpen={this.state.collapse}>
                     <Card className='collapse-card'>
                         <CardBody>
-                            SWC details
+                            <h6 className='text-red'>
+                                <FontAwesomeIcon icon='calendar-alt' />&emsp;August 2014 - May 2017
+                            </h6>
+                            <ul>
+                                <li>
+                                    Completed undergraduate general education requirements
+                                </li>
+                                <li>
+                                    Transferred to San Diego State University after the Spring 2017 semester
+                                </li>
+                            </ul>
                         </CardBody>
                     </Card>
                 </Collapse>

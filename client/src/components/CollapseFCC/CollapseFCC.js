@@ -49,13 +49,13 @@ class CollapseFCC extends Component {
                             </h6>
                             <Row>
                                 <Col>
-                                    <i><b>Responsive Web Design Certificate</b></i>
+                                    <i><b>Responsive Web Design</b></i>
                                     <a href='https://bit.ly/2m0YbYj' target='_blank' rel='noopener noreferrer'>
                                         <img className='cert' src={fcc_1} alt='fcc-01' />
                                     </a>
                                 </Col>
                                 <Col>
-                                    <i><b>JavaScript Algorithms and Data Structures Certificate</b></i>
+                                    <i><b>JavaScript Algorithms and Data Structures</b></i>
                                     <a href='https://bit.ly/2kquSxR' target='_blank' rel='noopener noreferrer'>
                                         <img className='cert' src={fcc_2} alt='fcc-02' />
                                     </a>

@@ -40,7 +40,14 @@ class CollapseSDSU extends Component {
                 <Collapse className='collapse-content' isOpen={this.state.collapse}>
                     <Card className='collapse-card'>
                         <CardBody>
-                            SDSU details
+                            <h6 className='text-red'>
+                                <FontAwesomeIcon icon='calendar-alt' />&emsp;August 2017 - December 2017
+                            </h6>
+                            <ul>
+                                <li>
+                                    Completed major prep courses towards Computer Science degree during the Fall 2017 semester
+                                </li>
+                            </ul>
                         </CardBody>
                     </Card>
                 </Collapse>

@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Row, Col, Collapse, Button, CardBody, Card } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import solo_1 from '../../assets/images/sololearn-html.jpg';
+import solo_2 from '../../assets/images/sololearn-css.jpg';
+import solo_3 from '../../assets/images/sololearn-js.jpg';
+import solo_4 from '../../assets/images/sololearn-jq.jpg';
 
 class CollapseSolo extends Component {
 
@@ -41,19 +44,30 @@ class CollapseSolo extends Component {
                 <Collapse className='collapse-content' isOpen={this.state.collapse}>
                     <Card className='collapse-card'>
                         <CardBody>
+                            <h6 className='text-red'>
+                                <FontAwesomeIcon icon='calendar-alt' />&emsp;October 2018 - November 2018
+                                <br />
+                                <FontAwesomeIcon icon='certificate' />&emsp;Web Development Fundamentals
+                            </h6>
                             <Row>
                                 <Col>
                                     <i><b>HTML Fundamentals</b></i>
                                     <a href='https://bit.ly/2mrprzv' target='_blank' rel='noopener noreferrer'><img className='cert' src={solo_1} alt='solo-01' /></a>
                                 </Col>
                                 <Col>
+                                    <i><b>CSS Fundamentals</b></i>
+                                    <a href='https://bit.ly/2kxcQKz' target='_blank' rel='noopener noreferrer'><img className='cert' src={solo_2} alt='solo-02' /></a>
                                 </Col>
                             </Row>
                             <br />
                             <Row>
                                 <Col>
+                                    <i><b>JavaScript Fundamentals</b></i>
+                                    <a href='https://bit.ly/2kWDOLC' target='_blank' rel='noopener noreferrer'><img className='cert' src={solo_3} alt='solo-03' /></a>
                                 </Col>
                                 <Col>
+                                    <i><b>jQuery Fundamentals</b></i>
+                                    <a href='https://bit.ly/2m0BIL8' target='_blank' rel='noopener noreferrer'><img className='cert' src={solo_4} alt='solo-04' /></a>
                                 </Col>
                             </Row>
                         </CardBody>
