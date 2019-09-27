@@ -40,7 +40,7 @@ const Navbar = props => {
                 <div className='toolbar__nav-items'>
                     <ul>
                         <li><a href='/about-me'><FontAwesomeIcon icon='user-circle' />&nbsp;About Me</a></li>
-                        <li><a href='/code-portfolio'><FontAwesomeIcon icon='file-code' />&nbsp;Portfolio</a></li>
+                        <li><a href='/my-projects'><FontAwesomeIcon icon='file-code' />&nbsp;My Projects</a></li>
                         <li><a href='/contact'><FontAwesomeIcon icon='envelope-square' />&nbsp;Contact</a></li>
                         <li>
                             <a href='https://www.linkedin.com/in/migueldamian/' target='_blank' rel='noopener noreferrer'>

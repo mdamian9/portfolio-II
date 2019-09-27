@@ -9,14 +9,6 @@
     margin-bottom: 25px;
 }
 
-.container {
-    max-width: 1400px;
-}
-
-.bg-opaque {
-    background-color: rgba(255, 255, 255, 0.9);
-}
-
 .section-one {
     max-width: 450px;
 }
@@ -52,11 +44,6 @@
     color: red;
 }
 
-.collapse-div {
-    margin-bottom: 1rem;
-    /* padding: 10px; */
-}
-
 #collapse-swc {
     margin-top: 1rem;
 }
@@ -65,35 +52,8 @@
     margin-top: 1rem;
 }
 
-.collapse-content {
-    margin-top: .5rem;
-}
-
-.collapse-card {
-    /* background: none; */
-    border-style: solid;
-    border-radius: none;
-    outline-style: none;
-}
-
-.collapse-btn {
-    display: flex;
-    width: 100%;
-    background: none;
-    border-style: none;
-    outline: none;
-    color: rgb(110, 110, 110);
-    outline-style: none;
-    padding: none;
-    text-align: left;
-}
-
 .section-two h5, h6 {
     margin-top: .5rem;
-}
-
-.collapse-btn-spc {
-    flex: 1;
 }
 
 @media (max-width: 768px) {

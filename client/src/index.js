@@ -13,6 +13,7 @@ import {
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import AboutMePage from './components/AboutMePage/AboutMePage';
+import MyProjectsPage from './components/MyProjectsPage/MyProjectsPage';
 
 // Add font awesome icons to library
 library.add(
@@ -25,6 +26,7 @@ ReactDOM.render(
     <Router>
         <Route exact path='/' component={App} />
         <Route exact path='/about-me' component={AboutMePage} />
+        <Route exact path='/my-projects' component={MyProjectsPage} />
     </Router>,
     document.getElementById('root')
 );
