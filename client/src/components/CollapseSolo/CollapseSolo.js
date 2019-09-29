@@ -49,6 +49,20 @@ class CollapseSolo extends Component {
                                 <br />
                                 <FontAwesomeIcon icon='certificate' />&emsp;Web Development Fundamentals
                             </h6>
+                            <hr />
+                            <p>
+                                Completed a series of short courses and obtained certificates offered by <a href='https://www.sololearn.com/' target='_blank' rel='noopener noreferrer'>SoloLearn</a>,
+                                an online learning platform. SoloLearn is a great platform to learn that has a wide community of users from
+                                all experience levels. Users can interact with each other, complete coding challenges and review each other's code.
+                                Obtained the following certificates:
+                            </p>
+                            <ul>
+                                <li>HTML Fundamentals</li>
+                                <li>CSS Fundamentals</li>
+                                <li>JavaScript Fundamentals</li>
+                                <li>jQuery Fundamentals</li>
+                            </ul>
+                            <hr />
                             <Row>
                                 <Col>
                                     <i><b>HTML Fundamentals</b></i>

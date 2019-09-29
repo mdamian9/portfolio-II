@@ -43,6 +43,7 @@ class CollapseSWC extends Component {
                             <h6 className='text-red'>
                                 <FontAwesomeIcon icon='calendar-alt' />&emsp;August 2014 - May 2017
                             </h6>
+                            <hr />
                             <ul>
                                 <li>
                                     Completed undergraduate general education requirements
@@ -51,6 +52,7 @@ class CollapseSWC extends Component {
                                     Transferred to San Diego State University after the Spring 2017 semester
                                 </li>
                             </ul>
+                            <hr />
                         </CardBody>
                     </Card>
                 </Collapse>

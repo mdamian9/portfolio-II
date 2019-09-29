@@ -54,7 +54,7 @@ class CollapseHKUST extends Component {
                             <hr />
                             <p>
                                 Completed a full-stack web development with React specialization (series of courses) authorized by
-                                The Hong Kong University of Science and Technology and offered through Coursera. The specialization
+                                The Hong Kong University of Science and Technology and offered through <a href='https://coursera.org/' target='_blank' rel='noopener noreferrer'>Coursera</a>. The specialization
                                 was taught by Dr. Jogesh K. Muppala, associate professor in the Department of Computer Science and Engineering
                                 at HKUST.
                             </p>

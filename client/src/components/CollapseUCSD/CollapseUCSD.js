@@ -48,8 +48,8 @@ class CollapseUCSD extends Component {
                             </h6>
                             <hr />
                             <p>
-                                Completed an intensive full stack web development program. Learned the following skills /
-                                technologies:
+                                Completed an intensive full-stack web development program offered by University of California, San Diego 
+                                through <a href='https://extension.ucsd.edu/' target='_blank' rel='noopener noreferrer'>UCSD Extension</a>. Learned the following skills / technologies:
                             </p>
                             <div style={{ display: 'flex' }}>
                                 <ul style={{marginBottom: '0px'}}>

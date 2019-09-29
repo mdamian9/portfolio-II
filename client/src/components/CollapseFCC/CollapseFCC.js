@@ -47,6 +47,26 @@ class CollapseFCC extends Component {
                                 <br />
                                 <FontAwesomeIcon icon='certificate' />&emsp;Full Stack Development
                             </h6>
+                            <hr />
+                            <p>
+                                Completing a rigorous curriculum offered by <a href='https://freecodecamp.org/' target='_blank' rel='noopener noreferrer'>freeCodeCamp</a> to obtain their Full Stack Developer
+                                Certification. There are six freeCodeCamp certificates, which are earned by completing the
+                                corresponding curriculum and required projects at <a href='https://learn.freecodecamp.org/' target='_blank' rel='noopener noreferrer'>learn.freecodecamp.org</a>:
+                            </p>
+                            <ul>
+                                <li>Responsive Web Design</li>
+                                <li>Algorithms and Data Structures</li>
+                                <li>Front-End Libraries</li>
+                                <li>Data Visualization</li>
+                                <li>APIs and Microservices</li>
+                                <li>Information Security and Quality Assurance</li>
+                            </ul>
+                            <p>
+                                Upon completion of all six certificates, the freeCodeCamp Full Stack Development Program
+                                Certificate will be issued. This final distinction signifies completion of approximately 1,800
+                                hours of coding with exposure to a wide range of web development tools.
+                            </p>
+                            <hr />
                             <Row>
                                 <Col>
                                     <i><b>Responsive Web Design</b></i>
