@@ -46,31 +46,38 @@ class CollapseUCSD extends Component {
                                 <br />
                                 <FontAwesomeIcon icon='certificate' />&emsp;Full-Stack Web Development Coding Bootcamp
                             </h6>
+                            <hr />
+                            <p>
+                                Completed an intensive full stack web development program. Learned the following skills /
+                                technologies:
+                            </p>
+                            <div style={{ display: 'flex' }}>
+                                <ul style={{marginBottom: '0px'}}>
+                                    <li>HTML</li>
+                                    <li>CSS3</li>
+                                    <li>Bootstrap</li>
+                                    <li>JavaScript</li>
+                                    <li>jQuery</li>
+                                </ul>
+                                <ul style={{marginBottom: '0px'}}>
+                                    <li>MongoDB</li>
+                                    <li>Express.js</li>
+                                    <li>React.js</li>
+                                    <li>Node.js</li>
+                                    <li>MySQL</li>
+                                </ul>
+                                <ul style={{marginBottom: '0px'}}>
+                                    <li>Command Line</li>
+                                    <li>Git</li>
+                                    <li>GitHub</li>
+                                    <li>Heroku</li>
+                                    <li>Firebase</li>
+                                </ul>
+                            </div>
+                            <hr />
                             <Row>
                                 <Col>
                                     <img className='cert' src={ucsdCert} alt='ucsd-cert' />
-                                    <br />
-                                    <br />
-                                    <p>
-                                        Completed an intensive full stack web development program. Learned the following skills /
-                                        technologies:
-                                    </p>
-                                    <ul>
-                                        <li>HTML</li>
-                                        <li>CSS3</li>
-                                        <li>Bootstrap</li>
-                                        <li>JavaScript</li>
-                                        <li>jQuery</li>
-                                        <li>MongoDB</li>
-                                        <li>Express.js</li>
-                                        <li>React.js</li>
-                                        <li>Node.js</li>
-                                        <li>MySQL</li>
-                                        <li>Command Line</li>
-                                        <li>Git</li>
-                                        <li>GitHub</li>
-                                        <li>Heroku</li>
-                                    </ul>
                                 </Col>
                                 <Col>
                                     <ul>

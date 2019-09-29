@@ -45,7 +45,7 @@ class CollapseFCC extends Component {
                             <h6 className='text-red'>
                                 <FontAwesomeIcon icon='calendar-alt' />&emsp;November 2018 - Present
                                 <br />
-                                <FontAwesomeIcon icon='certificate' />&emsp;Full-Stack Web Development
+                                <FontAwesomeIcon icon='certificate' />&emsp;Full Stack Development
                             </h6>
                             <Row>
                                 <Col>

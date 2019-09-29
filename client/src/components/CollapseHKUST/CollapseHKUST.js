@@ -51,6 +51,25 @@ class CollapseHKUST extends Component {
                                 <br />
                                 <FontAwesomeIcon icon='certificate' />&emsp;Full-Stack Web Development with React Specialization
                             </h6>
+                            <hr />
+                            <p>
+                                Completed a full-stack web development with React specialization (series of courses) authorized by
+                                The Hong Kong University of Science and Technology and offered through Coursera. The specialization
+                                was taught by Dr. Jogesh K. Muppala, associate professor in the Department of Computer Science and Engineering
+                                at HKUST.
+                            </p>
+                            <ul>
+                                <li>
+                                    Designed a full-fledged Web client application using Bootstrap 4 and React
+                                </li>
+                                <li>
+                                    Designed a hybrid mobile application using React Native
+                                </li>
+                                <li>
+                                    Developed server-side support for the web application using Node.js, ExpressJS together with database support using MongoDB
+                                </li>
+                            </ul>
+                            <hr />
                             <Row>
                                 <Col>
                                     <i><b>Front-End Web UI Frameworks and Tools: Bootstrap 4</b></i>
