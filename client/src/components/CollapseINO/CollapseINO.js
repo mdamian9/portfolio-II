@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Collapse, Button, CardBody, Card } from 'reactstrap';
+import { Collapse, Button, CardBody, Card } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class CollapseINO extends Component {
@@ -42,20 +42,18 @@ class CollapseINO extends Component {
                         <CardBody>
                             <h6 className='text-red'>
                                 <FontAwesomeIcon icon='calendar-alt' />&emsp;December 2015 - Present
+                                <br />
+                                <FontAwesomeIcon icon='certificate' />&emsp;Level 6 Associate
                             </h6>
-                            <Row>
-                                <Col>
-                                    <i><b>Level 5 Associate</b></i>
-                                    <hr />
-                                    <p>
-                                        Duties include working effectively and communicating at a high level with team members
-                                        and other associates in order to ensure the highest quality products and best
-                                        customer experience possible at a fast food restaurant. Also, train lower level associates
-                                        and help them obtain the skills / tools they need to exceed work expectations and move
-                                        up the work ladder.
-                                    </p>
-                                </Col>
-                            </Row>
+                            <hr />
+                            <p>
+                                Duties include working effectively and communicating at a high level with team members
+                                and other associates in order to ensure the highest quality products and best
+                                customer experience possible at a fast food restaurant. Also, train lower level associates
+                                and help them obtain the skills / tools they need to exceed work expectations and move
+                                up the work ladder.
+                            </p>
+                            <hr />
                         </CardBody>
                     </Card>
                 </Collapse>

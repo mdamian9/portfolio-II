@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Collapse, Button, CardBody, Card } from 'reactstrap';
+import { Collapse, Button, CardBody, Card } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class CollapseSwiss extends Component {
@@ -42,17 +42,15 @@ class CollapseSwiss extends Component {
                         <CardBody>
                             <h6 className='text-red'>
                                 <FontAwesomeIcon icon='calendar-alt' />&emsp;November 2013 - July 2015
+                                <br />
+                                <FontAwesomeIcon icon='certificate' />&emsp;Server / Busser / Caterer / Event Organizer
                             </h6>
-                            <Row>
-                                <Col>
-                                    <i><b>Server / Busser / Caterer / Event Organizer</b></i>
-                                    <hr />
-                                    <p>
-                                        Set-up and organized events such as weddings, quinceañeras, sweet sixteen parties, and club meetings. Worked as a server
-                                        and busser during events. Also catered and set-up events outside of our location.
-                                    </p>
-                                </Col>
-                            </Row>
+                            <hr />
+                            <p>
+                                Set-up and organized events such as weddings, quinceañeras, sweet sixteen parties, and club meetings. Worked as a server
+                                and busser during events. Also catered and set-up events outside of our location.
+                            </p>
+                            <hr />
                         </CardBody>
                     </Card>
                 </Collapse>
