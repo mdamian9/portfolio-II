@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Collapse, Button, CardBody, Card } from 'reactstrap';
+import { Collapse, Button, CardBody, Card } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class CollapseIRCV extends Component {
