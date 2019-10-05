@@ -85,15 +85,62 @@ class MyProjectsPage extends Component {
                                                 <li>Axios</li>
                                             </ul>
                                             <ul>
-                                                <li>W3Schools CSS</li>
-                                                <li>Postman</li>
-                                                <li>Mongoose</li>
-                                                <li>Robo 3T</li>
-                                                <li>Firebase</li>
+                                                <li>
+                                                    <a href='https://www.w3schools.com/w3css/'
+                                                        target='_blank' rel='noopener noreferrer'>
+                                                        W3Schools CSS
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href='https://www.getpostman.com/'
+                                                        target='_blank' rel='noopener noreferrer'>
+                                                        Postman
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href='https://mongoosejs.com/'
+                                                        target='_blank' rel='noopener noreferrer'>
+                                                        Mongoose.js
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href='https://robomongo.org/'
+                                                    target='_blank' rel='noopener noreferrer'>
+                                                        Robo 3T
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href='https://firebase.google.com/'
+                                                    target='_blank' rel='noopener noreferrer'>
+                                                        Firebase
+                                                    </a>
+                                                </li>
                                             </ul>
                                             <ul>
-                                                <li>Font Awesome</li>
-                                                <li>Morgan</li>
+                                                <li>
+                                                    <a href='https://fontawesome.com/'
+                                                        target='_blank' rel='noopener noreferrer'>
+                                                        Font Awesome
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href='https://www.npmjs.com/package/@fortawesome/react-fontawesome'
+                                                        target='_blank' rel='noopener noreferrer'>
+                                                        react-fontawesome
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href='https://www.npmjs.com/package/morgan'
+                                                        target='_blank' rel='noopener noreferrer'>
+                                                        Morgan
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href='https://www.npmjs.com/package/body-parser'
+                                                        target='_blank' rel='noopener noreferrer'>
+                                                        Body-Parser
+                                                    </a>
+                                                </li>
                                             </ul>
                                         </div>
                                         <hr />
