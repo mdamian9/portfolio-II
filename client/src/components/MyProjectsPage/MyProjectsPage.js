@@ -64,25 +64,100 @@ class MyProjectsPage extends Component {
                                         </p>
                                         <div style={{ display: 'flex', overflowX: 'auto' }}>
                                             <ul>
-                                                <li>HTML</li>
-                                                <li>CSS</li>
-                                                <li>JavaScript</li>
-                                                <li>jQuery</li>
-                                                <li>Bootstrap</li>
+                                                <li>
+                                                    <a href='https://developer.mozilla.org/en-US/docs/Web/HTML'
+                                                        target='_blank' rel='noopener noreferrer'>
+                                                        HTML
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href='https://developer.mozilla.org/en-US/docs/Web/CSS'
+                                                        target='_blank' rel='noopener noreferrer'>
+                                                        CSS
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript'
+                                                        target='_blank' rel='noopener noreferrer'>
+                                                        JavaScript
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href='https://developer.mozilla.org/en-US/docs/Glossary/REST'
+                                                        target='_blank' rel='noopener noreferrer'>
+                                                        RESTful APIs
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href='https://jquery.com/'
+                                                        target='_blank' rel='noopener noreferrer'>
+                                                        jQuery
+                                                    </a>
+                                                </li>
                                             </ul>
                                             <ul>
-                                                <li>Node.js</li>
-                                                <li>React.js</li>
-                                                <li>React Native</li>
-                                                <li>Express.js</li>
-                                                <li>MongoDB</li>
+                                                <li>
+                                                    <a href='https://nodejs.org/'
+                                                        target='_blank' rel='noopener noreferrer'>
+                                                        Node.js
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href='https://reactjs.org/'
+                                                        target='_blank' rel='noopener noreferrer'>
+                                                        React.js
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href='https://facebook.github.io/react-native/'
+                                                        target='_blank' rel='noopener noreferrer'>
+                                                        React Native
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href='https://expressjs.com/'
+                                                        target='_blank' rel='noopener noreferrer'>
+                                                        Express.js
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href='https://www.mongodb.com/'
+                                                        target='_blank' rel='noopener noreferrer'>
+                                                        MongoDB
+                                                    </a>
+                                                </li>
                                             </ul>
                                             <ul>
-                                                <li>MySQL</li>
-                                                <li>Reactstrap</li>
-                                                <li>Expo</li>
-                                                <li>RESTful APIs</li>
-                                                <li>Axios</li>
+                                                <li>
+                                                    <a href='https://getbootstrap.com/'
+                                                        target='_blank' rel='noopener noreferrer'>
+                                                        Bootstrap
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href='https://www.mysql.com/'
+                                                        target='_blank' rel='noopener noreferrer'>
+                                                        MySQL
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href='https://reactstrap.github.io/'
+                                                        target='_blank' rel='noopener noreferrer'>
+                                                        Reactstrap
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href='https://expo.io/'
+                                                        target='_blank' rel='noopener noreferrer'>
+                                                        Expo
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href='https://www.npmjs.com/package/axios'
+                                                        target='_blank' rel='noopener noreferrer'>
+                                                        Axios
+                                                    </a>
+                                                </li>
                                             </ul>
                                             <ul>
                                                 <li>
@@ -105,13 +180,13 @@ class MyProjectsPage extends Component {
                                                 </li>
                                                 <li>
                                                     <a href='https://robomongo.org/'
-                                                    target='_blank' rel='noopener noreferrer'>
+                                                        target='_blank' rel='noopener noreferrer'>
                                                         Robo 3T
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href='https://firebase.google.com/'
-                                                    target='_blank' rel='noopener noreferrer'>
+                                                        target='_blank' rel='noopener noreferrer'>
                                                         Firebase
                                                     </a>
                                                 </li>
