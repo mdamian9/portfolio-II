@@ -66,7 +66,7 @@ class CollapseHKUST extends Component {
                                     Designed a hybrid mobile application using React Native
                                 </li>
                                 <li>
-                                    Developed server-side support for the web application using Node.js, ExpressJS together with database support using MongoDB
+                                    Developed server-side support for the web application using Node.js and Express.js, together with database support using MongoDB
                                 </li>
                             </ul>
                             <hr />

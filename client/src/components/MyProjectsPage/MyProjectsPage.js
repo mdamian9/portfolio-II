@@ -5,6 +5,8 @@ import Navbar from '../Navbar/Navbar';
 import SideDrawer from '../SideDrawer/SideDrawer';
 import Backdrop from '../Backdrop/Backdrop';
 import Footer from '../Footer/Footer';
+import ProjectCard from '../ProjectCard/ProjectCard';
+import rick_morty from '../../assets/images/rick-morty.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class MyProjectsPage extends Component {
@@ -83,15 +85,15 @@ class MyProjectsPage extends Component {
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href='https://developer.mozilla.org/en-US/docs/Glossary/REST'
-                                                        target='_blank' rel='noopener noreferrer'>
-                                                        RESTful APIs
-                                                    </a>
-                                                </li>
-                                                <li>
                                                     <a href='https://jquery.com/'
                                                         target='_blank' rel='noopener noreferrer'>
                                                         jQuery
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href='https://developer.mozilla.org/en-US/docs/Glossary/REST'
+                                                        target='_blank' rel='noopener noreferrer'>
+                                                        RESTful APIs
                                                     </a>
                                                 </li>
                                             </ul>
@@ -109,9 +111,9 @@ class MyProjectsPage extends Component {
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href='https://facebook.github.io/react-native/'
+                                                    <a href='https://angularjs.org/'
                                                         target='_blank' rel='noopener noreferrer'>
-                                                        React Native
+                                                        Angular.js
                                                     </a>
                                                 </li>
                                                 <li>
@@ -153,9 +155,9 @@ class MyProjectsPage extends Component {
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href='https://www.npmjs.com/package/axios'
+                                                    <a href='https://facebook.github.io/react-native/'
                                                         target='_blank' rel='noopener noreferrer'>
-                                                        Axios
+                                                        React Native
                                                     </a>
                                                 </li>
                                             </ul>
@@ -216,8 +218,61 @@ class MyProjectsPage extends Component {
                                                         Body-Parser
                                                     </a>
                                                 </li>
+                                                <li>
+                                                    <a href='https://www.npmjs.com/package/axios'
+                                                        target='_blank' rel='noopener noreferrer'>
+                                                        Axios
+                                                    </a>
+                                                </li>
                                             </ul>
                                         </div>
+                                        <hr />
+                                        <Row className='text-center'>
+                                            <Col>
+                                                <ProjectCard img={rick_morty}
+                                                    title='Rick and Morty React Clicking Game'
+                                                    github='https://github.com/mdamian9'
+                                                    web='https://github.com/mdamian9'
+                                                />
+                                            </Col>
+                                            <Col>
+                                                2
+                                            </Col>
+                                            <Col>
+                                                3
+                                            </Col>
+                                            <Col>
+                                                4
+                                            </Col>
+                                        </Row>
+                                        <Row>
+                                            <Col>
+                                                1
+                                            </Col>
+                                            <Col>
+                                                2
+                                            </Col>
+                                            <Col>
+                                                3
+                                            </Col>
+                                            <Col>
+                                                4
+                                            </Col>
+                                        </Row>
+                                        <Row>
+                                            <Col>
+                                                1
+                                            </Col>
+                                            <Col>
+                                                2
+                                            </Col>
+                                            <Col>
+                                                3
+                                            </Col>
+                                            <Col>
+                                                4
+                                            </Col>
+                                        </Row>
                                         <hr />
                                     </CardBody>
                                 </Card>
