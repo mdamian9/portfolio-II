@@ -6,7 +6,10 @@ import SideDrawer from '../SideDrawer/SideDrawer';
 import Backdrop from '../Backdrop/Backdrop';
 import Footer from '../Footer/Footer';
 import ProjectCard from '../ProjectCard/ProjectCard';
-import rick_morty from '../../assets/images/rick-morty.png';
+import code_img from '../../assets/images/projects/code.png';
+import rick_morty from '../../assets/images/projects/rick-morty.png';
+import journey_on from '../../assets/images/projects/journey-on.png';
+import crypto_site from '../../assets/images/projects/crypto-site.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class MyProjectsPage extends Component {
@@ -230,19 +233,30 @@ class MyProjectsPage extends Component {
                                         <Row className='text-center'>
                                             <Col>
                                                 <ProjectCard img={rick_morty}
-                                                    title='Rick and Morty React Clicking Game'
+                                                    title='Rick and Morty Clicking Game'
                                                     github='https://github.com/mdamian9'
                                                     web='https://github.com/mdamian9'
                                                 />
                                             </Col>
                                             <Col>
-                                                2
+                                                <ProjectCard img={code_img}
+                                                    title='Node RESTful Shop'
+                                                    github='https://github.com/mdamian9/Node-REST-Shop'
+                                                />
                                             </Col>
                                             <Col>
-                                                3
+                                                <ProjectCard img={journey_on}
+                                                    title='Journey On (Group Project)'
+                                                    github='https://github.com/mdamian9/Journey_On'
+                                                    web='https://journeyonandon.herokuapp.com/'
+                                                />
                                             </Col>
                                             <Col>
-                                                4
+                                                <ProjectCard img={crypto_site}
+                                                    title='Crypto Paper Trading'
+                                                    github='https://github.com/mdamian9/cryptopapertrading-site'
+                                                    web='https://cryptopapertrading.herokuapp.com/'
+                                                />
                                             </Col>
                                         </Row>
                                         <Row>

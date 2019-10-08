@@ -8,25 +8,29 @@ const ProjectCard = props => {
 
     if (props.web) {
         webLink =
-            <a href={props.web} target='_blank' rel='noopener noreferrer'>
-                <FontAwesomeIcon icon='globe' />
-            </a>;
+            <h4 style={{ marginBottom: '0px' }}>
+                <a href={props.web} target='_blank' rel='noopener noreferrer'>
+                    <FontAwesomeIcon icon='globe' size='1x' />
+                </a>
+            </h4>;
         space = <div style={{ width: '10px' }} />
     };
 
     return (
-        <Card>
-            <CardImg src={props.img} />
-            <CardBody>
+        <Card style={{ height: '100%' }}>
+            <CardImg src={props.img} style={{ width: '100%', maxHeight: '150px' }} />
+            <CardBody style={{ padding: '10px' }}>
                 <CardTitle>
-                    {props.title}
+                    <b>{props.title}</b>
                 </CardTitle>
-                <CardSubtitle style={{ display: 'flex', justifyContent: 'center' }}>
-                    <a href={props.github} target='_blank' rel='noopener noreferrer'>
-                        <FontAwesomeIcon icon={['fab', 'github']} />
-                    </a>
-                    {space}
-                    {webLink}
+                <CardSubtitle>
+                    <h4 style={{ marginBottom: '0px', display: 'flex', justifyContent: 'center' }}>
+                        <a href={props.github} target='_blank' rel='noopener noreferrer'>
+                            <FontAwesomeIcon icon={['fab', 'github']} size='1x' />
+                        </a>
+                        {space}
+                        {webLink}
+                    </h4>
                 </CardSubtitle>
             </CardBody>
         </Card>
