@@ -20,6 +20,7 @@ import crypto_game from '../../assets/images/projects/crypto-game.png';
 import train_app from '../../assets/images/projects/train-app.png';
 import movie_app from '../../assets/images/projects/movie-app.png';
 import gif_app from '../../assets/images/projects/gif-app.png';
+import conFusion_1 from '../../assets/images/projects/conFusion-01.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class MyProjectsPage extends Component {
@@ -402,8 +403,17 @@ class MyProjectsPage extends Component {
                                                 />
                                             </Col>
                                             <Col>
+                                                <ProjectCard img={conFusion_1}
+                                                    title='Ristorante conFusion Website'
+                                                    github='https://github.com/mdamian9/conFusion'
+                                                    web='https://mdamian9.github.io/conFusion/'
+                                                />
                                             </Col>
                                             <Col>
+                                                <ProjectCard img={code_img}
+                                                    title='Ristorante conFusion React Native App'
+                                                    github='https://github.com/mdamian9/react-native-confusion'
+                                                />
                                             </Col>
                                         </Row>
                                         <hr />
