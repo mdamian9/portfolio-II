@@ -17,6 +17,9 @@ import iniesta_page from '../../assets/images/projects/iniesta-page.png';
 import devspace from '../../assets/images/projects/devspace.png';
 import dota from '../../assets/images/projects/dota.png';
 import crypto_game from '../../assets/images/projects/crypto-game.png';
+import train_app from '../../assets/images/projects/train-app.png';
+import movie_app from '../../assets/images/projects/movie-app.png';
+import gif_app from '../../assets/images/projects/gif-app.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class MyProjectsPage extends Component {
@@ -298,20 +301,20 @@ class MyProjectsPage extends Component {
                                         <Row className='text-center'>
                                             <Col>
                                                 <ProjectCard img={code_img}
-                                                    title='freeCodeCamp Algorithms and Data Structures Exercises'
+                                                    title='Algorithms and Data Structures Exercises'
                                                     github='https://github.com/mdamian9/freeCodeCamp-JS-Algos-DataStructures'
                                                 />
                                             </Col>
                                             <Col>
                                                 <ProjectCard img={tech_page}
-                                                    title='freeCodeCamp Simple Documentation Page'
+                                                    title='Simple Documentation Page'
                                                     github='https://github.com/mdamian9/Technical-Documentation-Page'
                                                     web='https://mdamian9.github.io/Technical-Documentation-Page/'
                                                 />
                                             </Col>
                                             <Col>
                                                 <ProjectCard img={fcc_portfolio}
-                                                    title='freeCodeCamp Simple Portfolio'
+                                                    title='Sample Portfolio'
                                                     github='https://github.com/mdamian9/FCC-Personal-Portfolio'
                                                     web='https://mdamian9.github.io/FCC-Personal-Portfolio/'
                                                 />
@@ -352,6 +355,55 @@ class MyProjectsPage extends Component {
                                                     github='https://github.com/mdamian9/unit-4-game'
                                                     web='https://mdamian9.github.io/unit-4-game/'
                                                 />
+                                            </Col>
+                                        </Row>
+                                        <br />
+                                        <Row className='text-center'>
+                                            <Col>
+                                                <ProjectCard img={code_img}
+                                                    title='Node Cryptocurrency Trading App'
+                                                    github='https://github.com/mdamian9/Crypto-Finances-Calculator'
+                                                />
+                                            </Col>
+                                            <Col>
+                                                <ProjectCard img={code_img}
+                                                    title='Liri Node App'
+                                                    github='https://github.com/mdamian9/liri-node-app'
+                                                />
+                                            </Col>
+                                            <Col>
+                                                <ProjectCard img={code_img}
+                                                    title='Bamazon CLI Node App'
+                                                    github='https://github.com/mdamian9/Bamazon-CLI-Node-App'
+                                                />
+                                            </Col>
+                                            <Col>
+                                                <ProjectCard img={train_app}
+                                                    title='Train Schedule App'
+                                                    github='https://github.com/mdamian9/Train-Schedule-App'
+                                                    web='https://mdamian9.github.io/Train-Schedule-App/'
+                                                />
+                                            </Col>
+                                        </Row>
+                                        <br />
+                                        <Row className='text-center'>
+                                            <Col>
+                                                <ProjectCard img={movie_app}
+                                                    title='Movie Reviewer App'
+                                                    github='https://github.com/mdamian9/Movie-Reviewer-App'
+                                                    web='https://mdamian9.github.io/Movie-Reviewer-App/'
+                                                />
+                                            </Col>
+                                            <Col>
+                                                <ProjectCard img={gif_app}
+                                                    title='GIF Generator App'
+                                                    github='https://github.com/mdamian9/GIF-Generator'
+                                                    web='https://mdamian9.github.io/Movie-Reviewer-App/'
+                                                />
+                                            </Col>
+                                            <Col>
+                                            </Col>
+                                            <Col>
                                             </Col>
                                         </Row>
                                         <hr />
