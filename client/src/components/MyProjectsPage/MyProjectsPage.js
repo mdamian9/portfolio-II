@@ -10,6 +10,13 @@ import code_img from '../../assets/images/projects/code.png';
 import rick_morty from '../../assets/images/projects/rick-morty.png';
 import journey_on from '../../assets/images/projects/journey-on.png';
 import crypto_site from '../../assets/images/projects/crypto-site.png';
+import tournament_app from '../../assets/images/projects/tournament-app.png';
+import tech_page from '../../assets/images/projects/tech-page.png';
+import fcc_portfolio from '../../assets/images/projects/fcc-portfolio.png';
+import iniesta_page from '../../assets/images/projects/iniesta-page.png';
+import devspace from '../../assets/images/projects/devspace.png';
+import dota from '../../assets/images/projects/dota.png';
+import crypto_game from '../../assets/images/projects/crypto-game.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class MyProjectsPage extends Component {
@@ -234,14 +241,15 @@ class MyProjectsPage extends Component {
                                             <Col>
                                                 <ProjectCard img={rick_morty}
                                                     title='Rick and Morty Clicking Game'
-                                                    github='https://github.com/mdamian9'
-                                                    web='https://github.com/mdamian9'
+                                                    github='https://github.com/mdamian9/React-Clicking-Game'
+                                                    web='https://react-clicking-game.herokuapp.com/'
                                                 />
                                             </Col>
                                             <Col>
-                                                <ProjectCard img={code_img}
-                                                    title='Node RESTful Shop'
-                                                    github='https://github.com/mdamian9/Node-REST-Shop'
+                                                <ProjectCard img={tournament_app}
+                                                    title='Round Robin Tournament App'
+                                                    github='https://github.com/mdamian9/tournament-app'
+                                                    web='https://md-tournament-app.herokuapp.com/round-robin'
                                                 />
                                             </Col>
                                             <Col>
@@ -259,32 +267,91 @@ class MyProjectsPage extends Component {
                                                 />
                                             </Col>
                                         </Row>
-                                        <Row>
+                                        <br />
+                                        <Row className='text-center'>
                                             <Col>
-                                                1
+                                                <ProjectCard img={code_img}
+                                                    title='Coding Challenges'
+                                                    github='https://github.com/mdamian9/coding-challenges'
+                                                />
                                             </Col>
                                             <Col>
-                                                2
+                                                <ProjectCard img={code_img}
+                                                    title='Node RESTful Shop'
+                                                    github='https://github.com/mdamian9/Node-REST-Shop'
+                                                />
                                             </Col>
                                             <Col>
-                                                3
+                                                <ProjectCard img={code_img}
+                                                    title='Kitu Systems Coding Exercise'
+                                                    github='https://github.com/mdamian9/KituCodingExercise'
+                                                />
                                             </Col>
                                             <Col>
-                                                4
+                                                <ProjectCard img={code_img}
+                                                    title='Express-Firebase App'
+                                                    github='https://github.com/mdamian9/express-firebase'
+                                                />
                                             </Col>
                                         </Row>
-                                        <Row>
+                                        <br />
+                                        <Row className='text-center'>
                                             <Col>
-                                                1
+                                                <ProjectCard img={code_img}
+                                                    title='freeCodeCamp Algorithms and Data Structures Exercises'
+                                                    github='https://github.com/mdamian9/freeCodeCamp-JS-Algos-DataStructures'
+                                                />
                                             </Col>
                                             <Col>
-                                                2
+                                                <ProjectCard img={tech_page}
+                                                    title='freeCodeCamp Simple Documentation Page'
+                                                    github='https://github.com/mdamian9/Technical-Documentation-Page'
+                                                    web='https://mdamian9.github.io/Technical-Documentation-Page/'
+                                                />
                                             </Col>
                                             <Col>
-                                                3
+                                                <ProjectCard img={fcc_portfolio}
+                                                    title='freeCodeCamp Simple Portfolio'
+                                                    github='https://github.com/mdamian9/FCC-Personal-Portfolio'
+                                                    web='https://mdamian9.github.io/FCC-Personal-Portfolio/'
+                                                />
                                             </Col>
                                             <Col>
-                                                4
+                                                <ProjectCard img={code_img}
+                                                    title='Node-Mongoose App'
+                                                    github='https://github.com/mdamian9/node-mongoose'
+                                                />
+                                            </Col>
+                                        </Row>
+                                        <br />
+                                        <Row className='text-center'>
+                                            <Col>
+                                                <ProjectCard img={iniesta_page}
+                                                    title='Andres Iniesta Tribute Page'
+                                                    github='https://github.com/mdamian9/Iniesta-Tribute-Page'
+                                                    web='https://mdamian9.github.io/Iniesta-Tribute-Page/'
+                                                />
+                                            </Col>
+                                            <Col>
+                                                <ProjectCard img={devspace}
+                                                    title='DevSpace (Group Project)'
+                                                    github='https://github.com/mdamian9/DevSpace/'
+                                                    web='https://therealdevspace.herokuapp.com/'
+                                                />
+                                            </Col>
+                                            <Col>
+                                                <ProjectCard img={dota}
+                                                    title='Dota 2 ESPORTS Site (Group Project)'
+                                                    github='https://github.com/mdamian9/project-1/'
+                                                    web='https://mdamian9.github.io/project-1/'
+                                                />
+                                            </Col>
+                                            <Col>
+                                                <ProjectCard img={crypto_game}
+                                                    title='Crypto Coin Collector Game'
+                                                    github='https://github.com/mdamian9/unit-4-game'
+                                                    web='https://mdamian9.github.io/unit-4-game/'
+                                                />
                                             </Col>
                                         </Row>
                                         <hr />
