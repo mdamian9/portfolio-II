@@ -20,16 +20,24 @@ class ContactForm extends Component {
                     <Col>
                         <Form>
                             <FormGroup>
-                                <Label for='userName'>Email:</Label>
-                                <Input type='text' name='name' id='userName' placeholder='Enter your name' />
+                                <Label for='firstName'>First Name:</Label>
+                                <Input type='text' name='firstName' id='firstName' placeholder='Enter your first name' />
+                            </FormGroup>
+                            <FormGroup>
+                                <Label for='lastName'>Last Name:</Label>
+                                <Input type='text' name='lastName' id='lastName' placeholder='Enter your last name' />
                             </FormGroup>
                             <FormGroup>
                                 <Label for='userEmail'>Email:</Label>
                                 <Input type='email' name='email' id='userEmail' placeholder='Enter your email' />
                             </FormGroup>
                             <FormGroup>
+                                <Label for='subject'>Subject:</Label>
+                                <Input type='text' name='subject' id='subject' placeholder='Enter the subject' />
+                            </FormGroup>
+                            <FormGroup>
                                 <Label for="userMessage">Message:</Label>
-                                <Input type="textarea" name="message" id="userMessage" placeholder='Enter your message' size={5} />
+                                <Input type="textarea" name="message" id="userMessage" placeholder='Enter your message' rows={6} />
                             </FormGroup>
                         </Form>
                     </Col>

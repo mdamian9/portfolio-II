@@ -6,6 +6,7 @@ import SideDrawer from '../SideDrawer/SideDrawer';
 import Backdrop from '../Backdrop/Backdrop';
 import Footer from '../Footer/Footer';
 import ContactForm from '../ContactForm/ContactForm';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class ContactPage extends Component {
     constructor(props) {
@@ -48,7 +49,31 @@ class ContactPage extends Component {
                             <div className='bg-opaque' style={{ padding: '30px' }}>
                                 <Card>
                                     <CardBody>
-                                        <h4 className='text-center'>Contact Me</h4>
+                                        <h3 className='text-center' style={{ marginBottom: '0px' }}><b>Contact Information</b></h3>
+                                        <br />
+                                        <h6 className='text-center'>
+                                            <b className='text-red'><FontAwesomeIcon icon='envelope' />&ensp;Email:</b> m.damian9@hotmail.com
+                                            <br />
+                                            <b className='text-red'><FontAwesomeIcon icon={['fab', 'linkedin']} />&ensp;LinkedIn:</b> <a
+                                                href='https://linkedin.com/in/migueldamian/'
+                                                target='_blank' rel='noopener noreferrer'>
+                                                https://linkedin.com/in/migueldamian
+                                                </a>
+                                            <br />
+                                            <b className='text-red'><FontAwesomeIcon icon={['fab', 'github']} />&ensp;GitHub:</b> <a
+                                                href='https://github.com/mdamian9/'
+                                                target='_blank' rel='noopener noreferrer'>
+                                                https://github.com/mdamian9
+                                                </a>
+                                            <br />
+                                            <b className='text-red'><FontAwesomeIcon icon='globe' />&ensp;Website:</b> <a
+                                                href='https://migueldamian.herokuapp.com/'
+                                                target='_blank' rel='noopener noreferrer'>
+                                                https://migueldamian.herokuapp.com/
+                                                </a>
+                                            <br />
+                                        </h6>
+                                        <br />
                                         <ContactForm />
                                     </CardBody>
                                 </Card>

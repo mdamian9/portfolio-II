@@ -66,7 +66,7 @@ class MyProjectsPage extends Component {
                                 <Card>
                                     <CardBody>
                                         <h3>
-                                            <FontAwesomeIcon icon='certificate' />&emsp;About my projects:
+                                            <FontAwesomeIcon icon='certificate' />&emsp;<b>About my projects:</b>
                                         </h3>
                                         <hr />
                                         <p>
