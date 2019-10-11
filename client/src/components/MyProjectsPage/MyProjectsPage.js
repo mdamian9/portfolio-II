@@ -416,6 +416,13 @@ class MyProjectsPage extends Component {
                                                 />
                                             </Col>
                                         </Row>
+                                        <br />
+                                        <Row className='text-center'>
+                                            <Col></Col>
+                                            <Col></Col>
+                                            <Col></Col>
+                                            <Col></Col>
+                                        </Row>
                                         <hr />
                                     </CardBody>
                                 </Card>

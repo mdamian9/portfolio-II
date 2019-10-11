@@ -5,6 +5,7 @@ import Navbar from '../Navbar/Navbar';
 import SideDrawer from '../SideDrawer/SideDrawer';
 import Backdrop from '../Backdrop/Backdrop';
 import Footer from '../Footer/Footer';
+import ContactForm from '../ContactForm/ContactForm';
 
 class ContactPage extends Component {
     constructor(props) {
@@ -41,13 +42,14 @@ class ContactPage extends Component {
                 <SideDrawer show={this.state.sideDrawerOpen} />
                 {backdrop}
                 <br />
-                <Container style={{ maxWidth: '60%' }}>
-                    <Row className='text-center'>
+                <Container style={{ maxWidth: '50%' }}>
+                    <Row>
                         <Col>
                             <div className='bg-opaque' style={{ padding: '30px' }}>
                                 <Card>
                                     <CardBody>
-                                        <h4>Contact Me</h4>
+                                        <h4 className='text-center'>Contact Me</h4>
+                                        <ContactForm />
                                     </CardBody>
                                 </Card>
                             </div>
