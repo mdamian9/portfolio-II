@@ -70,12 +70,12 @@ class MyProjectsPage extends Component {
                                         </h3>
                                         <hr />
                                         <p>
-                                            This portfolio is composed of multiple projects that I have created, most of which
-                                            have been deployed to Heroku. A couple of these projects were created as a group
+                                            This portfolio is composed of multiple projects that I have created, some of which
+                                            have been deployed to GitHub Pages and Heroku. A couple of these projects were created as a group
                                             (labeled as "group project") during my time at the UC San Diego Coding Bootcamp, and
                                             the rest have been created by myself. I believe that hard work and practice is the
-                                            key to master any skill. These projects have let me practice the skills I have
-                                            learned over time and be creative when I code. Some of the technologies that have been
+                                            key to master any skill. These projects have let me practice and reinforce the skills I have
+                                            learned over time and be creative when I code. Some of the technologies and development tools that were
                                             used to create these projects are:
                                         </p>
                                         <div style={{ display: 'flex', overflowX: 'auto' }}>

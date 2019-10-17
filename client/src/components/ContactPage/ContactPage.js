@@ -43,7 +43,7 @@ class ContactPage extends Component {
                 <SideDrawer show={this.state.sideDrawerOpen} />
                 {backdrop}
                 <br />
-                <Container style={{ maxWidth: '50%' }}>
+                <Container style={{ maxWidth: '60%' }}>
                     <Row>
                         <Col>
                             <div className='bg-opaque' style={{ padding: '30px' }}>

@@ -25,7 +25,7 @@ const Navbar = props => {
     //     };
     // };
 
-    console.log(document.getElementById('navbar'));
+    // console.log(document.getElementById('navbar'));
 
     return (
         <header className={navbarClasses} id='navbar'>
