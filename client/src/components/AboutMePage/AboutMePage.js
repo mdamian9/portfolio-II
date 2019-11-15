@@ -7,6 +7,7 @@ import SideDrawer from '../SideDrawer/SideDrawer';
 import Backdrop from '../Backdrop/Backdrop';
 import Footer from '../Footer/Footer';
 import me from '../../assets/images/img-03.jpg';
+import resume from '../../assets/files/Resume.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import CollapseUCSD from '../CollapseUCSD/CollapseUCSD';
 import CollapseHKUST from '../CollapseHKUST/CollapseHKUST';
@@ -79,7 +80,7 @@ class AboutMePage extends Component {
                                         </p>
                                         <p>
                                             <FontAwesomeIcon icon='file-alt' className='fa-bullet' />
-                                            <a href="assets/files/resume.pdf" target="_blank" rel="noopener noreferrer">Resume (PDF)</a>
+                                            <a href={resume} target="_blank" rel="noopener noreferrer">Resume (PDF)</a>
                                         </p>
                                     </div>
                                     <hr />
