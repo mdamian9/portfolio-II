@@ -14,9 +14,18 @@ mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTop
 });
 mongoose.set('useCreateIndex', true);
 
+// Log all requests to the console
+app.use(morgan('dev'));
+
+// Setting up express body parser to use json and set it to req.body
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
+// Initialize API routes
 const msgRoutes = require('./api/routes/messages');
 
-app.use('/message', msgRoutes);
+// Use API routes
+app.use('/messages', msgRoutes);
 
 // Serve up static assets (usually on heroku)
 if (process.env.NODE_ENV === 'production') {
