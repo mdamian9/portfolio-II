@@ -7,6 +7,7 @@
   "author": "mdamian9 <m.damian9@hotmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "if-env": "^1.0.4",

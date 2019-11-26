@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Button, Form, FormGroup, Label, Input } from 'reactstrap';
 import './ContactForm.css';
+import axios from 'axios';
 
 class ContactForm extends Component {
 
@@ -20,6 +21,19 @@ class ContactForm extends Component {
     handleFormSubmit = event => {
         event.preventDefault();
         console.log(this.state);
+
+        axios.post('/messages', {
+            firstName: this.state.firstName,
+            lastName: this.state.lastName,
+            email: this.state.email,
+            subject: this.state.subject,
+            message: this.state.message
+        }).then(res => {
+            console.log(res.data);
+        }).catch(err => {
+            console.log(err);
+        });
+
         // Reset form
         event.target.reset();
         // Reset state
