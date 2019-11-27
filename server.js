@@ -5,6 +5,10 @@ const path = require('path');
 const mongoose = require('mongoose');
 const morgan = require('morgan');
 require('dotenv').config();
+// Initialize SendGrid to send emails
+const sgMail = require('@sendgrid/mail');
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+
 
 // Connect to mongoose
 mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
