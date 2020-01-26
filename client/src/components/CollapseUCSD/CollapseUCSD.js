@@ -42,7 +42,7 @@ class CollapseUCSD extends Component {
                     <Card className='collapse-card'>
                         <CardBody>
                             <h6 className='text-red'>
-                                <FontAwesomeIcon icon='calendar-alt' />&emsp;June 4, 2018 - August 28, 2019
+                                <FontAwesomeIcon icon='calendar-alt' />&emsp;June 4, 2018 - August 28, 2018
                                 <br />
                                 <FontAwesomeIcon icon='certificate' />&emsp;Full-Stack Web Development Coding Bootcamp
                             </h6>
