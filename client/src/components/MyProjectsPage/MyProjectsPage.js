@@ -9,7 +9,7 @@ import ProjectCard from '../ProjectCard/ProjectCard';
 import code_img from '../../assets/images/projects/code.png';
 import rick_morty from '../../assets/images/projects/rick-morty.png';
 import journey_on from '../../assets/images/projects/journey-on.png';
-import crypto_site from '../../assets/images/projects/crypto-site.png';
+import obelisk from '../../assets/images/projects/obelisk.png';
 import tournament_app from '../../assets/images/projects/tournament-app.png';
 import tech_page from '../../assets/images/projects/tech-page.png';
 import fcc_portfolio from '../../assets/images/projects/fcc-portfolio.png';
@@ -242,6 +242,13 @@ class MyProjectsPage extends Component {
                                         </div>
                                         <hr />
                                         <Row className='text-center'>
+                                        <Col>
+                                                <ProjectCard img={obelisk}
+                                                    title='Obelisk.Trade'
+                                                    github='https://github.com/mdamian9/obelisk'
+                                                    web='https://obelisk-trade.herokuapp.com/'
+                                                />
+                                            </Col>
                                             <Col>
                                                 <ProjectCard img={rick_morty}
                                                     title='Rick and Morty Clicking Game'
@@ -261,13 +268,6 @@ class MyProjectsPage extends Component {
                                                     title='Journey On (Group Project)'
                                                     github='https://github.com/mdamian9/Journey_On'
                                                     web='https://journeyonandon.herokuapp.com/'
-                                                />
-                                            </Col>
-                                            <Col>
-                                                <ProjectCard img={crypto_site}
-                                                    title='Crypto Paper Trading'
-                                                    github='https://github.com/mdamian9/cryptopapertrading-site'
-                                                    web='https://cryptopapertrading.herokuapp.com/'
                                                 />
                                             </Col>
                                         </Row>
